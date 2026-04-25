@@ -1,0 +1,20 @@
+[
+  {
+    "title": "ArchipelagoEngine",
+    "description": "An Rcpp-optimized engine to resolve the Continental Fallacy by modeling maritime connectivity.",
+    "categories": ["CRAN", "Spatial Stats"],
+    "url": "https://github.com/pinasr/ArchipelagoEngine"
+  },
+  {
+    "title": "roroph",
+    "description": "A standardized & machine-readable geospatial data of the Philippines' Roll-on/Roll-off (RoRo) shipping network",
+    "categories": ["Maritime", "Logistics"],
+    "url": "https://github.com/pinasr/roroph"
+  },
+  {
+    "title": "palettephines",
+    "description": "Color palettes for ggplot2 inspired by the Philippine landscape.",
+    "categories": ["Data Viz"],
+    "url": "https://github.com/pinasr/palettephines"
+  }
+]

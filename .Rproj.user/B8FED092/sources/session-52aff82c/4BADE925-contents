@@ -1,0 +1,21 @@
+---
+title: "NJ Talingting"
+about:
+  template: jolla
+  image: profile.png 
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/njtalingting
+    - icon: github
+      text: GitHub
+      href: https://github.com/njtalingting
+---
+
+I build open-source tools in R to resolve the [**“Continental Fallacy”**](https://r-universe.dev)— the geographic bias that treats our oceans as barriers rather than vital conductors of connectivity in spatial modeling. 
+
+While studying Statistics in Cebu— situated beside the Philippines' busiest maritime hub— I witnessed the gap between logistical reality and spatial data. Since 2023, I have balanced my duties as an **elected public official** with the development of **Research Software Engineering (RSE) tools** that translate these maritime flows into reproducible science. My packages are indexed on the Comprehensive R Archive Network (CRAN).
+
+Beyond code, I lead and maintain [**PinasR**](https://github.com/pinasr), a centralized registry for Filipino-led R development. We aspire to cultivate a national culture of open science and sustainable software, ensuring the Philippines has a seat at the table in the global RSE community.
+
+*Explore the tools I’ve built to solve these challenges under the Software section!*
