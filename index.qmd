@@ -18,10 +18,8 @@ about:
       href: "mailto:ninotalingting77@gmail.com"
 ---
 
-I build open-source softwares to resolve the [**“Continental Fallacy”**](https://pinasr.r-universe.dev/articles/ArchipelagoEngine/rtl_impact.html)— the geographic bias that treats our oceans as barriers rather than vital conductors of connectivity in spatial modeling. 
+I build open-source softwares to resolve the [“Continental Fallacy”](https://pinasr.r-universe.dev/articles/ArchipelagoEngine/rtl_impact.html)— the geographic bias that treats our oceans as barriers rather than vital conductors of connectivity in spatial modeling. 
 
 While studying Statistics in Cebu— situated beside the Philippines' busiest maritime hub— I witnessed the gap between logistical reality and spatial data. This exposure has eventually led me to developing tools indexed to the [Comprehensive R Archive Network](https://cran.r-project.org/) while being an **appointed public official** since 2023.
 
-Beyond code, I lead and maintain [**PinasR**](https://github.com/pinasr), a centralized registry for Filipino-led R development so that the future generation would hopefully not feel the isolation I've felt during my early days as maintainer. I also love reading fiction books! I pride myself in reading Dan Brown's books in one sitting.
-
-*Explore the tools I’ve built to solve these challenges under the Software section!*
+Beyond code, I lead and maintain [**PinasR**](https://github.com/pinasr), a centralized registry for Filipino-led R developers so that the future generation would hopefully not feel the isolation I've felt during my early days as maintainer. I also love reading fiction books! I pride myself in reading Dan Brown's books in one sitting. 
