@@ -22,4 +22,4 @@ I build **open-source softwares** to resolve the [“Continental Fallacy”](htt
 
 While studying Statistics in Cebu— situated beside the Philippines' busiest maritime hub— I witnessed the gap between logistical reality and spatial data. This exposure has led me to developing tools now indexed to the Comprehensive R Archive Network (CRAN) while handling administrative roles as **appointed public official** since 2023.
 
-Beyond code, I lead and maintain [PinasR](https://pinasr.r-universe.dev/builds), a centralized registry for local tools made by Filipino R developers to drive the open source movement in the Philippines where not everyone cannot afford expensive, propreitary tools. I also love reading fictional books; I pride myself in devouring some of Dan Brown's novels in one sitting! 
+Beyond code, I lead and maintain [PinasR](https://pinasr.r-universe.dev/builds), a centralized registry for local tools made by Filipino R developers to drive the open source movement in the Philippines where not everyone can afford expensive, propreitary tools. I also love reading fictional books; I pride myself in devouring some of Dan Brown's novels in one sitting! 
