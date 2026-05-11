@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - "google*.html"  # Keeps your Google Search Console verification file alive
 
 website:
   navbar:
