@@ -9,6 +9,9 @@ permissions:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    env:
+      # This line must be indented under env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true 
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -27,9 +30,6 @@ jobs:
           packages: |
             any::knitr
             any::rmarkdown
-            any::downloader
-            # Add your specific CRAN packages here so they can render on the site:
-            # any::your_package_name 
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
@@ -37,4 +37,5 @@ jobs:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
