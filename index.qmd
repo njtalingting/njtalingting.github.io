@@ -18,8 +18,8 @@ about:
       href: "mailto:ninotalingting77@gmail.com"
 ---
 
-I build **open-source softwares** for the R statistical programming language to resolve the [“Continental Fallacy”](https://pinasr.r-universe.dev/articles/ArchipelagoEngine/rtl_impact.html)— the systemic bias that treats our oceans as barriers rather than conductors of connectivity in spatial modeling. 
+I build **open-source software** for the R statistical programming language to resolve the [“Continental Fallacy”](https://pinasr.r-universe.dev/articles/ArchipelagoEngine/rtl_impact.html)— the systemic bias that treats our oceans as barriers rather than conductors of connectivity in spatial modeling. 
 
-My lived experience beside the heart of the maritime logistics in Cebu has led me to developing packages now indexed to the Comprehensive R Archive Network (CRAN) while handling administrative roles as **appointed public official** since 2023.
+My lived experience beside the heart of the maritime logistics in the Philippines has led me to developing packages now indexed to the Comprehensive R Archive Network (CRAN) while handling administrative roles as **appointed public official** since 2023.
 
-Beyond code, I lead and maintain [PinasR](https://pinasr.r-universe.dev/builds), a centralized registry for open-sourced packages made by Filipino R developers to make reproducible research accessible for all. 
+Beyond package development, I lead and maintain [PinasR](https://pinasr.r-universe.dev/builds), a centralized registry for open-sourced packages made by Filipino R developers to make reproducible research accessible for all. 
