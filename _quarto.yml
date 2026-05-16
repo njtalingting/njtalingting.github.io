@@ -4,6 +4,8 @@ project:
     - "google*.html"  # Keeps your Google Search Console verification file alive
 
 website:
+  title: "NJ Talingting"
+  description: "Connecting fragmented geographies."
   navbar:
     left:
       - href: index.qmd
