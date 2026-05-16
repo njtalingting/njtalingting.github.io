@@ -5,7 +5,6 @@ project:
 
 website:
   navbar:
-    logo: images/logo.svg
     left:
       - href: index.qmd
         text: Home
@@ -17,4 +16,5 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    favicon: images/logo.svg
     include-in-header: schema.html
