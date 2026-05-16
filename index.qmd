@@ -1,5 +1,5 @@
 ---
-title: "NJ Talingting — Connecting Fragmented Geographies"
+title: "NJ Talingting"
 about:
   template: jolla
   image: profile.png 
