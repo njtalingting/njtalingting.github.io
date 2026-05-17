@@ -4,6 +4,6 @@
     "href": "index.html",
     "title": "NJ Talingting",
     "section": "",
-    "text": "I build open-source software for the R statistical programming language to resolve the “Continental Fallacy”— the systemic bias that treats our oceans as barriers rather than conductors of connectivity in spatial modeling.\nMy lived experience beside the heart of the maritime logistics in the Philippines has led me to developing packages now indexed to the Comprehensive R Archive Network (CRAN) while handling administrative roles as appointed public official since 2023.\nBeyond package development, I lead and maintain PinasR, a centralized registry for open-sourced packages made by Filipino R developers to make reproducible research accessible for all."
+    "text": "I build open-source software that resolve the “Continental Fallacy”— the systemic bias that treats our oceans as barriers rather than conductors of connectivity in spatial modeling.\nMy lived experience beside the heart of the maritime logistics in the Philippines has led me to developing packages now indexed to the Comprehensive R Archive Network (CRAN) while handling administrative roles as appointed public official since 2023.\nBeyond package development, I lead and maintain PinasR, a centralized registry for open-sourced packages made by Filipino R developers to make reproducible research accessible for all."
   }
 ]
