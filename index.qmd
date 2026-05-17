@@ -7,6 +7,9 @@ about:
     - icon: github
       text: GitHub
       href: https://github.com/njtalingting
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/njtalingting
     - icon: mortarboard
       text: ORCID
       href: https://orcid.org/my-orcid?orcid=0009-0003-7245-874X
