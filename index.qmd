@@ -23,6 +23,6 @@ about:
 
 I build **open-source software** that resolve the [“Continental Fallacy”](https://pinasr.r-universe.dev/articles/ArchipelagoEngine/rtl_impact.html)— the systemic bias that treats our oceans as barriers rather than conductors of connectivity in spatial modeling. 
 
-My lived experience beside the heart of the maritime logistics in the Philippines has led me to developing packages now indexed to the Comprehensive R Archive Network (CRAN) while handling administrative roles as **appointed public official** since 2023.
+My lived experience beside the heart of the maritime logistics in the Philippines has led me to developing packages now indexed on the Comprehensive R Archive Network (CRAN) while handling administrative roles as an **appointed public official** since 2023.
 
-Beyond package development, I lead and maintain [PinasR](https://pinasr.r-universe.dev/builds), a centralized registry for open-sourced packages made by Filipino R developers to make reproducible research accessible for all. 
+Beyond package development, I've architected and maintain [PinasR](https://pinasr.r-universe.dev/builds), a centralized registry for open-sourced packages made by Filipino R developers to make reproducible research accessible for all. 
