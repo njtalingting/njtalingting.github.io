@@ -3,11 +3,11 @@ title: "Resources"
 toc: true
 ---
 
-I'm one of the (very few) Statistics major in the Philippines. In fact, my professor once jokingly said that we are *"endangered species"* due to the traditionally low number of 
+I'm one of the (very few) Statistics major in the Philippines. In fact, people jokingly say we are *"endangered species"* due to the traditionally low number of 
 enrollees per academic year. This has posed extra challenges during my studies since there are lesser support system who could extend their hands. Nevertheless, I have found extra resources online. I think this is helpful for you if you are also someone who:
 
-* 1. HATES proving theorems and found applied statistics more enjoyable;
-* 2. Comes from a developing nation who doesn't have all the time to learn huge books due to poor internet connection, frequent power outage, etc and;
-* 3. Is frustrated because the software keeps crashing so you are considering making your own package for valid inference.
+* *1. HATES proving theorems and find applied statistics more enjoyable;*
+* *2. Comes from a developing nation who doesn't have all the time to learn huge books due to poor internet connection, frequent power outage, etc and;*
+* *3. Is frustrated because the software keeps crashing and doesnt understand your research so you are considering making your own package for valid inference.*
 
-I've divided into: **Statistical Methods and Package Development**
+I've divided the resources that helped me into two: **Statistical Methods and Package Development**. If you have questions about my experience as a Statistics student, being a maintainer of packages, CRAN submissions, and literally anything that would convince you to take Stat, just email me at **ninotalingting77@gmail.com** or message me across my linked accounts at the bottom of the Home section!
