@@ -1,11 +1,12 @@
 project:
   type: website
   resources:
-    - "google*.html"  # Keeps your Google Search Console verification file alive
+    - "google*.html"  # Keeps Google Search Console verification file alive
 
 website:
   title: "NJ Talingting"
   description: "Connecting fragmented geographies."
+  favicon: images/logo.svg  
   navbar:
     left:
       - href: index.qmd
@@ -18,5 +19,4 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-    favicon: images/logo.svg
     include-in-header: schema.html
