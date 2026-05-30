@@ -9,7 +9,6 @@ website:
   favicon: images/logo.svg
   page-footer:
     left: "© 2026 NJ Talingting"
-    right: "*Don’t forget to test your assumptions and map your residuals!*"
   navbar:
     logo: images/logo.svg
     left:
