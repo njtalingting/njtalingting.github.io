@@ -2,7 +2,7 @@
 title: "NJ Talingting"
 about:
   template: jolla
-  image: nj_talingting_developer.jpg 
+  image: images/nj_talingting_developer.jpg 
   links:
     - icon: github
       text: GitHub
