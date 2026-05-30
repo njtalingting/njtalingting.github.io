@@ -3,9 +3,7 @@ title: "Recognition"
 toc: false
 ---
 
-* ** *Tunay na Iskolar ng Bayan* Scholarship Recipient** (2020)
-  * Selected for a fully funded scholarship to pursue Cambridge IGCSE and A-Levels at a British International School.
-  * Granted the opportunity to undergo rigorous Cambridge IGCSE and A-Level styling in Cebu, Philippines. This international training instilled a deep global research perspective and molded my trajectory to pursue early, highly specialized technical disciplines.
+* ***Tunay na Iskolar ng Bayan* Scholarship Recipient** (2020)
 
 <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-top: 20px;">
   <iframe 
