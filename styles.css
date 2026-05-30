@@ -1,1 +1,5 @@
 /* css styles */
+/* Hides the redundant navbar brand text while keeping the logo icon visible */
+.navbar-brand .navbar-title {
+  display: none !important;
+}
