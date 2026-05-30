@@ -6,7 +6,10 @@ project:
 website:
   title: "NJ Talingting"
   description: "Connecting fragmented geographies."
-  favicon: images/logo.svg  
+  favicon: images/logo.svg
+  page-footer:
+    left: "© 2026 NJ Talingting"
+    right: "*Don’t forget to test your assumptions and map your residuals!*"
   navbar:
     logo: images/logo.svg
     left:
