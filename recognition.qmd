@@ -4,6 +4,7 @@ toc: false
 ---
 
 * ***Tunay na Iskolar ng Bayan* Scholarship Recipient** (2020)
+  * Selected for a fully funded scholarship to pursue Cambridge IGCSE and A-Levels at an international school in Cebu, Philippines.
 
 <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-top: 20px;">
   <iframe 
