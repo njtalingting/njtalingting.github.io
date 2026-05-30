@@ -8,6 +8,7 @@ website:
   description: "Connecting fragmented geographies."
   favicon: images/logo.svg  
   navbar:
+    logo: images/logo.svg
     left:
       - href: index.qmd
         text: Home
