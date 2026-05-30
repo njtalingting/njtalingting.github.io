@@ -3,11 +3,10 @@ title: "Resources"
 toc: true
 ---
 
-I'm one of the (very few) Statistics major in the Philippines. In fact, people jokingly say we are *"endangered species"* due to the traditionally low number of 
-enrollees per academic year. This has posed extra challenges during my studies since there are lesser support system who could extend their hands. Nevertheless, I have found extra resources online. I think this is helpful for you if you are also someone who:
+**This section is a collection of the resources I've found helpful during my undegrad studies (and later package development).** As a Statistics major in the Philippines, people would jokingly call us *"endangered species"* due to the traditionally low number of enrollees. This made academic support extra challenging due to the low number of people who understands my concern. So I searched stuff online and found these; I think these are helpful if you also:
 
 * *1. HATES proving theorems and find applied statistics more enjoyable;*
 * *2. Comes from a developing nation who doesn't have all the time to learn huge books due to poor internet connection, frequent power outage, etc and;*
 * *3. Is frustrated because the software keeps crashing and doesnt understand your research so you are considering making your own package for valid inference.*
 
-I've divided the resources that helped me into two: **Statistical Methods and Package Development**. If you have questions about my experience as a Statistics student, being a maintainer of packages, CRAN submissions, and literally anything that would convince you to take Stat, just email me at **ninotalingting77@gmail.com** **Don't forget to test your assumptions and map your residuals!**
+If you have other questions about my experience as a Statistics student, being a maintainer of packages, CRAN submissions, and literally anything that would convince you to take Stat, just email me at **ninotalingting77@gmail.com**. **Don't forget to test your assumptions and map your residuals!**
