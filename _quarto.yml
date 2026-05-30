@@ -16,6 +16,8 @@ website:
         text: Recognition
       - href: https://njtalingting.r-universe.dev/packages
         text: Software
+      - href: resources.qmd
+        text: Resources
 
 format:
   html:
