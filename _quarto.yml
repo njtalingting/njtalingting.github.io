@@ -11,6 +11,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: recognition.qmd
+        text: Recognition
       - href: https://njtalingting.r-universe.dev/packages
         text: Software
 
