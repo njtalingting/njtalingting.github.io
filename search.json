@@ -11,7 +11,7 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "This is a collection of the resources I’ve collected throughout my undergraduate studies. As a Statistics major in the Philippines, people would occassionally think of us as “endangered species” due to the traditionally low number of enrollees. This made academic support challenging since there’s low number of people who understand my concern. So I searched stuff online throughout the years and found these; I think these are helpful if you also:"
+    "text": "This is a collection of the resources I’ve collected throughout my undergraduate studies. The traditionally low number of people with background in Statistics made academic support challenging. Thus I searched stuff online throughout the years and found these; I think these are helpful if you also:"
   },
   {
     "objectID": "resources.html#i.-learning-statistical-methods",
@@ -21,18 +21,18 @@
     "text": "I. Learning Statistical Methods"
   },
   {
-    "objectID": "resources.html#ii.-translating-the-statistical-methods-youve-learned-using-the-r-programming-language",
-    "href": "resources.html#ii.-translating-the-statistical-methods-youve-learned-using-the-r-programming-language",
+    "objectID": "resources.html#ii.-doing-data-analysis-in-r",
+    "href": "resources.html#ii.-doing-data-analysis-in-r",
     "title": "Resources",
-    "section": "II. Translating the Statistical Methods You’ve Learned using the R Programming Language",
-    "text": "II. Translating the Statistical Methods You’ve Learned using the R Programming Language\n\n\nR for Data Science (2e): Leveraging core Tidyverse paradigms— including advanced data transformation (dplyr), functional programming (purrr), and exploratory data analysis— to maintain clean, reproducible, and standardized data pipelines before modeling."
+    "section": "II. Doing Data Analysis in R",
+    "text": "II. Doing Data Analysis in R\n\n\nR for Data Science (2e): Leveraging core Tidyverse paradigms— including advanced data transformation (dplyr), functional programming (purrr), and exploratory data analysis— to maintain clean, reproducible, and standardized data pipelines before modeling."
   },
   {
-    "objectID": "resources.html#iii.-transforming-the-functions-youve-written-in-ii-into-a-software",
-    "href": "resources.html#iii.-transforming-the-functions-youve-written-in-ii-into-a-software",
+    "objectID": "resources.html#iii.-transforming-r-functions-into-package",
+    "href": "resources.html#iii.-transforming-r-functions-into-package",
     "title": "Resources",
-    "section": "III. Transforming the Functions You’ve Written in II into a Software",
-    "text": "III. Transforming the Functions You’ve Written in II into a Software\n\n\n\nIf you have other questions about my experience navigating college life as a Statistics student, submitting to CRAN, making and maintaining your first package in the Global South, and anything we share in common, feel free to email me at ninotalingting77@gmail.com. Don’t forget to test your assumptions and map your residuals!"
+    "section": "III. Transforming R Functions into Package",
+    "text": "III. Transforming R Functions into Package\n\n\n\nIf you have other questions about my experience navigating college life as a Statistics student, submitting to CRAN, making and maintaining your first package in the Global South, and anything we share in common, feel free to email me at ninotalingting77@gmail.com. Don’t forget to test your assumptions and map your residuals!"
   },
   {
     "objectID": "recognition.html",
