@@ -15,7 +15,7 @@ toc: true
 ## II. Translating the Statistical Methods You've Learned using the R Programming Language
 * * **[R for Data Science (2e)](https://r4ds.hadley.nz/):** Leveraging core Tidyverse paradigms— including advanced data transformation (`dplyr`), functional programming (`purrr`), and exploratory data analysis— to maintain clean, reproducible, and standardized data pipelines before modeling.
 
-## Transforming the Functions You've Written in II into a Software! 
+## III. Transforming the Functions You've Written in *II* into a Software
 *
 
 If you have other questions about my experience navigating college life as a Statistics student, submitting to CRAN, making and maintaining your first package in the Global South, and anything we share in common, feel free to email me at ninotalingting77@gmail.com. Don't forget to test your assumptions and map your residuals!
