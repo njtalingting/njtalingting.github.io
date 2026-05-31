@@ -14,25 +14,25 @@
     "text": "This is a collection of the resources I’ve collected throughout my undergraduate studies. As a Statistics major in the Philippines, people would occassionally think of us as “endangered species” due to the traditionally low number of enrollees. This made academic support challenging since there’s low number of people who understand my concern. So I searched stuff online throughout the years and found these; I think these are helpful if you also:"
   },
   {
-    "objectID": "resources.html#statistical-methods",
-    "href": "resources.html#statistical-methods",
+    "objectID": "resources.html#i.-learning-statistical-methods",
+    "href": "resources.html#i.-learning-statistical-methods",
     "title": "Resources",
-    "section": "Statistical Methods",
-    "text": "Statistical Methods"
+    "section": "I. Learning Statistical Methods",
+    "text": "I. Learning Statistical Methods"
   },
   {
-    "objectID": "resources.html#how-to-translate-the-statistical-methods-youve-learned-using-the-r-programming-language",
-    "href": "resources.html#how-to-translate-the-statistical-methods-youve-learned-using-the-r-programming-language",
+    "objectID": "resources.html#ii.-translating-the-statistical-methods-youve-learned-using-the-r-programming-language",
+    "href": "resources.html#ii.-translating-the-statistical-methods-youve-learned-using-the-r-programming-language",
     "title": "Resources",
-    "section": "How to Translate the Statistical Methods You’ve Learned using the R Programming Language",
-    "text": "How to Translate the Statistical Methods You’ve Learned using the R Programming Language\n\n\nR for Data Science (2e): Leveraging core Tidyverse paradigms— including advanced data transformation (dplyr), functional programming (purrr), and exploratory data analysis— to maintain clean, reproducible, and standardized data pipelines before modeling."
+    "section": "II. Translating the Statistical Methods You’ve Learned using the R Programming Language",
+    "text": "II. Translating the Statistical Methods You’ve Learned using the R Programming Language\n\n\nR for Data Science (2e): Leveraging core Tidyverse paradigms— including advanced data transformation (dplyr), functional programming (purrr), and exploratory data analysis— to maintain clean, reproducible, and standardized data pipelines before modeling."
   },
   {
-    "objectID": "resources.html#package-development-in-r",
-    "href": "resources.html#package-development-in-r",
+    "objectID": "resources.html#transforming-the-functions-youve-written-in-r-into-a-software",
+    "href": "resources.html#transforming-the-functions-youve-written-in-r-into-a-software",
     "title": "Resources",
-    "section": "Package Development in R",
-    "text": "Package Development in R\n\n\n\nIf you have other questions about my experience navigating college life as a Statistics student, submitting to CRAN, making and maintaining your first package in the Global South, and anything we share in common, feel free to email me at ninotalingting77@gmail.com. Don’t forget to test your assumptions and map your residuals!"
+    "section": "Transforming the Functions You’ve Written in R into a Software",
+    "text": "Transforming the Functions You’ve Written in R into a Software\n\n\n\nIf you have other questions about my experience navigating college life as a Statistics student, submitting to CRAN, making and maintaining your first package in the Global South, and anything we share in common, feel free to email me at ninotalingting77@gmail.com. Don’t forget to test your assumptions and map your residuals!"
   },
   {
     "objectID": "recognition.html",
