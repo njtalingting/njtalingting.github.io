@@ -1,11 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-  <circle cx="50" cy="50" r="45" fill="none" stroke="#73b7f5" stroke-width="6"/>
-  <text x="50%" y="55%" 
-        dominant-baseline="middle" 
-        text-anchor="middle" 
-        font-family="system-ui, -apple-system, sans-serif" 
-        font-size="38" 
-        font-weight="800" 
-        fill="#73b7f5" 
-        letter-spacing="-1">NT</text>
+  <!-- Central Solar Core with high-contrast white outline for dark tabs -->
+  <circle cx="50" cy="50" r="16" fill="#fbcb46" stroke="#ffffff" stroke-width="2.5" />
+  
+  <!-- 8 Symmetric Radiating Sun Rays -->
+  <g stroke="#fbcb46" stroke-width="3.5" stroke-linecap="round">
+    <!-- Top and Bottom Rays -->
+    <line x1="50" y1="24" x2="50" y2="12" />
+    <line x1="50" y1="76" x2="50" y2="88" />
+    
+    <!-- Left and Right Rays -->
+    <line x1="24" y1="50" x2="12" y2="50" />
+    <line x1="76" y1="50" x2="88" y2="50" />
+    
+    <!-- Diagonal Rays -->
+    <line x1="31.6" y1="31.6" x2="23.1" y2="23.1" />
+    <line x1="68.4" y1="68.4" x2="76.9" y2="76.9" />
+    <line x1="31.6" y1="68.4" x2="23.1" y2="76.9" />
+    <line x1="68.4" y1="31.6" x2="76.9" y2="23.1" />
+  </g>
+  
+  <!-- Subtle inner white highlights on rays for ultimate dark-mode visibility -->
+  <g stroke="#ffffff" stroke-width="1" stroke-linecap="round" opacity="0.9">
+    <line x1="50" y1="22" x2="50" y2="14" />
+    <line x1="50" y1="78" x2="50" y2="86" />
+    <line x1="22" y1="50" x2="14" y2="50" />
+    <line x1="78" y1="50" x2="86" y2="50" />
+  </g>
 </svg>
+
