@@ -12,6 +12,9 @@ toc: true
 ## Statistical Methods
 *
 
+## How to Translate the Statistical Methods You've Learned using the R Programming Language
+* * **[R for Data Science (2e)](https://r4ds.hadley.nz/):** Leveraging core Tidyverse paradigms— including advanced data transformation (`dplyr`), functional programming (`purrr`), and exploratory data analysis— to maintain clean, reproducible, and standardized data pipelines before modeling.
+
 ## Package Development in R
 *
 
