@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "NJ Talingting",
     "section": "",
-    "text": "Hello world! I am a public official who unexpectedly fell in love with R package development during my senior year as a Statistics major. Since then, my work has focused on fixing the limitations of traditional spatial models when applied to archipelagos, especially here in my home country, the Philippines. You can find my core spatial tools published on CRAN.\nWhen I am not working in public administration, I architect and maintain PinasR, a centralized registry for open-source packages created by Filipino R developers, built to make reproducible research accessible to all."
+    "text": "Hello world! I am a public official who unexpectedly got into R package development during my senior year studying Statistics.\nSince then, my work has focused on fixing the limitations of traditional spatial models when applied to archipelagos, especially in my home country of the Philippines. You can find my core spatial tools published on CRAN.\nWhen I am not working in public administration, I’ve architected and maintain PinasR, a centralized registry for open-source packages created by Filipino R developers, built to make reproducible research accessible to all."
   },
   {
     "objectID": "resources.html",
