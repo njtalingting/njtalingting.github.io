@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "NJ Talingting",
     "section": "",
-    "text": "Hello world! I am a public official who unexpectedly got into R package development during my senior year studying Statistics.\nSince then, my work has focused on fixing the limitations of traditional spatial models when applied to archipelagos, especially in my home country of the Philippines. You can find my core spatial tools published on CRAN.\nWhen I am not working in public administration, I’ve architected and maintain PinasR, a centralized registry for open-source packages created by Filipino R developers, built to make reproducible research accessible to all."
+    "text": "Hello, world! I develop open-source tools to resolve the “Continental Fallacy” in spatial data science— the systemic geographic bias where spatial models treat the ocean as an empty void rather than a dynamic medium of connectivity when applied to archipelagos.\nMy years in public office and studies of statistics near the Cebu Port Authority has deeply grounded my work so that they meet the reality of archipelagic life.\nOutside work, I’ve founded (PinasR)[https://pinasr.r-universe.dev/packages], a centralized repository for R packages made by Filipinos. You may find my core spatial tools at CRAN."
   },
   {
     "objectID": "resources.html",
