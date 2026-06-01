@@ -9,13 +9,13 @@ toc: true
 * Comes from a developing nation who needs to optimize time and resources due to poor internet connection, frequent power outage, etc and;
 * Cares about reproducibility in science and valid inference so are considering making your own package!
 
-## I. Learning Statistical Methods
+## Learning Statistical Methods
 *
 
-## II. Doing Data Analysis in R
+## Doing Data Analysis in R
 * * **[R for Data Science (2e)](https://r4ds.hadley.nz/):** Leveraging core Tidyverse paradigms— including advanced data transformation (`dplyr`), functional programming (`purrr`), and exploratory data analysis— to maintain clean, reproducible, and standardized data pipelines before modeling.
 
-## III. Transforming R Functions into Package
+## Transforming R Functions into Package
 *
 
 If you have other questions about my experience navigating college life as a Statistics student, submitting to CRAN, making and maintaining your first package in the Global South, and anything we share in common, feel free to email me at ninotalingting77@gmail.com. Don't forget to test your assumptions and map your residuals!
