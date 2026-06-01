@@ -21,7 +21,7 @@ about:
       href: "mailto:ninotalingting77@gmail.com"
 ---
 
-Hello, world! I develop open-source tools to resolve the "Continental Fallacy" in Spatial Data Science — the systemic geographic bias where spatial models treat the ocean as an empty void rather than a medium of connectivity when applied to archipelagos.
+Hello, world! I develop open-source tools to resolve the ["Continental Fallacy"](https://pinasr.r-universe.dev/articles/ArchipelagoEngine/rtl_impact.html) in Spatial Data Science — the systemic geographic bias where spatial models treat the ocean as an empty void rather than a medium of connectivity when applied to archipelagos.
 
 My years in public office and studies of statistics near the Cebu Port Authority has deeply grounded my work so that they meet the reality of archipelagic life.
 
