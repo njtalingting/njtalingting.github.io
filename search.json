@@ -14,25 +14,25 @@
     "text": "This is a collection of the resources I’ve collected throughout my undergraduate studies. The traditionally low number of people with background in Statistics made academic support challenging. Thus I searched stuff online throughout the years and found these; I think these are helpful if you also:"
   },
   {
-    "objectID": "resources.html#i.-learning-statistical-methods",
-    "href": "resources.html#i.-learning-statistical-methods",
+    "objectID": "resources.html#learning-statistical-methods",
+    "href": "resources.html#learning-statistical-methods",
     "title": "Resources",
-    "section": "I. Learning Statistical Methods",
-    "text": "I. Learning Statistical Methods"
+    "section": "Learning Statistical Methods",
+    "text": "Learning Statistical Methods"
   },
   {
-    "objectID": "resources.html#ii.-doing-data-analysis-in-r",
-    "href": "resources.html#ii.-doing-data-analysis-in-r",
+    "objectID": "resources.html#doing-data-analysis-in-r",
+    "href": "resources.html#doing-data-analysis-in-r",
     "title": "Resources",
-    "section": "II. Doing Data Analysis in R",
-    "text": "II. Doing Data Analysis in R\n\n\nR for Data Science (2e): Leveraging core Tidyverse paradigms— including advanced data transformation (dplyr), functional programming (purrr), and exploratory data analysis— to maintain clean, reproducible, and standardized data pipelines before modeling."
+    "section": "Doing Data Analysis in R",
+    "text": "Doing Data Analysis in R\n\n\nR for Data Science (2e): Leveraging core Tidyverse paradigms— including advanced data transformation (dplyr), functional programming (purrr), and exploratory data analysis— to maintain clean, reproducible, and standardized data pipelines before modeling."
   },
   {
-    "objectID": "resources.html#iii.-transforming-r-functions-into-package",
-    "href": "resources.html#iii.-transforming-r-functions-into-package",
+    "objectID": "resources.html#transforming-r-functions-into-package",
+    "href": "resources.html#transforming-r-functions-into-package",
     "title": "Resources",
-    "section": "III. Transforming R Functions into Package",
-    "text": "III. Transforming R Functions into Package\n\n\n\nIf you have other questions about my experience navigating college life as a Statistics student, submitting to CRAN, making and maintaining your first package in the Global South, and anything we share in common, feel free to email me at ninotalingting77@gmail.com. Don’t forget to test your assumptions and map your residuals!"
+    "section": "Transforming R Functions into Package",
+    "text": "Transforming R Functions into Package\n\n\n\nIf you have other questions about my experience navigating college life as a Statistics student, submitting to CRAN, making and maintaining your first package in the Global South, and anything we share in common, feel free to email me at ninotalingting77@gmail.com. Don’t forget to test your assumptions and map your residuals!"
   },
   {
     "objectID": "recognition.html",
