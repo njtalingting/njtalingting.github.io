@@ -3,7 +3,7 @@ title: "Recognition"
 toc: false
 ---
 
-* ***Tunay na Iskolar ng Bayan* Scholarship Recipient** (2020)
+* ***Tunay na Iskolar ng Bayan* Scholarship Recipient (2020)** I've received a fully-funded scholarship to study at an international school in Cebu that offers IGCSE/A-levels.
 
 <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-top: 20px;">
   <iframe 
