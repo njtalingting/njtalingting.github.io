@@ -14,10 +14,10 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: recognition.qmd
-        text: Recognition
       - href: software.qmd
         text: Software
+      - href: recognition.qmd
+        text: Recognition
       - href: resources.qmd
         text: Resources
 
