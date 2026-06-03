@@ -1,5 +1,38 @@
-/* css styles */
+
+/* Main Header Bar Styling */
+.navbar {
+  background-color: #D96B43 !important; /* Muted Terracotta */
+  border-bottom: 3px solid #EAA15F !important; /* Lighter sunset glow border */
+}
+
 /* Hides the redundant navbar brand text while keeping the logo icon visible */
 .navbar-brand .navbar-title {
   display: none !important;
+}
+
+/* Header Navbar Links Typography */
+.nav-link {
+  color: #FDF6ED !important; /* Warm Ivory text */
+  font-weight: 500;
+}
+
+/* Subtle fade effect when hovering over links */
+.nav-link:hover {
+  color: #FDF6ED !important;
+  opacity: 0.8;
+}
+
+/* Dropdown menu styling if you have sub-menus */
+.dropdown-menu {
+  background-color: #D96B43 !important;
+  border: 1px solid #EAA15F !important;
+}
+
+.dropdown-item {
+  color: #FDF6ED !important;
+}
+
+/* Search icon color fix (if using Quarto's built-in search) */
+.quarto-search-toggle .bi-search {
+  color: #FDF6ED !important;
 }
