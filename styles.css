@@ -1,15 +1,16 @@
-
-/* 1. GLOBAL TEXT & CONTENT STYLING */
+/* ==========================================================================
+   1. GLOBAL TEXT & CONTENT STYLING (Maritime Foundations)
+   ========================================================================== */
 body {
-  background-color: #FCFAF7 !important; /* Soft, warm sand background instead of stark white */
-  color: #2A2421 !important;            /* Deep Espresso Brown for elite readability */
+  background-color: #F4F8F8 !important; /* Soft oceanic mist/seafoam tint instead of warm sand */
+  color: #1A2E3B !important;            /* Deep Abyssal Blue for premium, accessible readability */
   font-family: 'Figtree', sans-serif !important;
 }
 
-/* Page Titles and Section Headings (Wavy, elegant fluid serifs) */
+/* Page Titles and Section Headings (Fluid, oceanic serifs) */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif !important;
-  color: #2C1A11 !important;            /* Dark Roasted Coconut Shell */
+  color: #0F1E29 !important;            /* Midnight Marine Blue */
   font-weight: 700;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
@@ -21,18 +22,19 @@ p {
   letter-spacing: 0.1px;
 }
 
-/* Warm Sunset Highlight for Important Keywords (triggers when using **bold** markers) */
+/* Maritime Channel Highlight for Important Keywords (triggers when using **bold** markers) */
 strong, b {
-  color: #2C1A11 !important;
-  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, rgba(217, 107, 67, 0.12) 35%); /* Subtle warm terracotta underline glow */
+  color: #0F1E29 !important;
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, rgba(42, 157, 143, 0.15) 35%); /* Ocean teal underline channel glow */
   padding: 0 2px;
 }
 
-
-/* Main Header Container */
+/* ==========================================================================
+   2. NAVIGATION HEADER (The Maritime Transit Layer)
+   ========================================================================== */
 .navbar {
-  background-color: #2C1A11 !important; /* Rich Dark Coconut Shell Brown */
-  border-bottom: 3px solid #E76F51 !important; /* Toasted Husk accent line */
+  background-color: #0F1E29 !important; /* Midnight Marine Blue instead of Coconut Brown */
+  border-bottom: 3px solid #2A9D8F !important; /* Deep Tropical Teal accent line representing shallow reefs */
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
@@ -45,7 +47,7 @@ strong, b {
 /* Header Navbar Links Typography */
 .nav-link {
   font-family: 'Figtree', sans-serif !important;
-  color: #F9F6F0 !important;            /* Bright Coconut Milk text */
+  color: #E8F1F5 !important;            /* Sea-spray white text */
   font-weight: 500;
   letter-spacing: 0.5px;
   transition: opacity 0.2s ease, color 0.2s ease;
@@ -53,108 +55,107 @@ strong, b {
 
 /* Clean hover fade effect on navbar links */
 .nav-link:hover {
-  color: #F9F6F0 !important;
-  opacity: 0.8;
+  color: #2A9D8F !important;            /* Illuminates to reef teal on hover */
+  opacity: 1;
 }
 
-/* Search icon color fix to match coconut milk text */
+/* Search icon color fix to match sea-spray text */
 .quarto-search-toggle .bi-search {
-  color: #F9F6F0 !important;
+  color: #E8F1F5 !important;
 }
 
 /* Dark/Light mode theme toggle icon color adjustment */
 .quarto-color-scheme-toggle .bi {
-  color: #F9F6F0 !important;
+  color: #E8F1F5 !important;
 }
 
 /* Dropdown menu styling for mobile displays or nested tracks */
 .dropdown-menu {
-  background-color: #2C1A11 !important;
-  border: 1px solid #895129 !important;
+  background-color: #0F1E29 !important;
+  border: 1px solid #2A9D8F !important;
 }
 
 .dropdown-item {
-  color: #F9F6F0 !important;
+  color: #E8F1F5 !important;
 }
 
 .dropdown-item:hover {
-  background-color: #895129 !important;
-  color: #F9F6F0 !important;
+  background-color: #2A9D8F !important;
+  color: #0F1E29 !important;
 }
 
+/* ==========================================================================
+   3. INLINE HYPERLINKS & BUTTONS (Island Connections)
+   ========================================================================== */
 /* Hyperlinks inside your main website content paragraphs */
 .page-columns p a, 
 .about-contents a:not(.btn) {
-  color: #895129 !important;            /* Toasted Husk accent color */
+  color: #1D7A8C !important;            /* Coastal teal anchor color */
   text-decoration: underline;
-  text-decoration-color: rgba(137, 81, 41, 0.3);
+  text-decoration-color: rgba(29, 122, 140, 0.3);
   transition: color 0.2s ease, text-decoration-color 0.2s ease;
 }
 
 /* Inline Page Links Hover Effect */
 .page-columns p a:hover, 
 .about-contents a:hover:not(.btn) {
-  color: #2C1A11 !important;            /* Darkens to heavy brown on hover */
-  text-decoration-color: #2C1A11;
+  color: #0F1E29 !important;            /* Deepens to abyssal blue on hover */
+  text-decoration-color: #0F1E29;
 }
 
-/* Island Pebble-Shaped Action Badges (for social/about links) */
+/* Reef Pebble-Shaped Action Badges (for social/about links) */
 .about-links .btn,
 .about-links a.btn {
-  background-color: #F4EFEA !important; /* Soft bleached sand */
-  color: #2C1A11 !important;            /* Roasted coconut text */
-  border: 1px solid #E76F51 !important; /* Toasted husk border */
+  background-color: #EBF3F5 !important; /* Bleached coral/sand white */
+  color: #0F1E29 !important;            /* Midnight marine text */
+  border: 1px solid #2A9D8F !important; /* Tropical reef teal border */
   border-radius: 30px !important;       /* Smooth pebble shape */
   padding: 0.5rem 1.4rem !important;
   font-family: 'Figtree', sans-serif !important;
   font-weight: 500;
   text-decoration: none !important;
-  box-shadow: 0 2px 5px rgba(44, 26, 17, 0.05) !important;
+  box-shadow: 0 2px 5px rgba(15, 30, 41, 0.05) !important;
   transition: all 0.2s ease !important;
 }
 
 /* Pebble Badges Hover Effect */
 .about-links .btn:hover,
 .about-links a.btn:hover {
-  background-color: #E76F51 !important; /* Fills with toasted brown */
-  color: #F9F6F0 !important;            /* Text turns to white coconut milk */
-  border-color: #895129 !important;
+  background-color: #2A9D8F !important; /* Fills with vivid reef teal */
+  color: #E8F1F5 !important;            /* Text turns to sea-spray white */
+  border-color: #1D7A8C !important;
   transform: translateY(-2px);
-  box-shadow: 0 5px 12px rgba(44, 26, 17, 0.15) !important;
+  box-shadow: 0 5px 12px rgba(42, 157, 143, 0.25) !important;
 }
 
+/* ==========================================================================
+   4. PORTRAIT HERO IMAGE (Organic Fluid Overhaul)
+   ========================================================================== */
 /* Targets your primary landing page portrait photo */
 .about-image, 
 img[src*="avatar"], 
 img[src*="profile"],
 .quarto-about-solana .about-entity img {
-  border: 4px solid #F9F6F0 !important;   /* Clean Coconut Milk inner ring */
-  outline: 2px solid #895129 !important;  /* Toasted Husk outer accent line */
-  box-shadow: 0 10px 25px rgba(44, 26, 17, 0.12) !important; /* Organic warm shadow */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 4px solid #E8F1F5 !important;   /* Sea-spray white inner ring */
+  outline: 2px solid #2A9D8F !important;  /* Deep reef teal outer tracking line */
+  border-radius: 53% 47% 52% 48% / 46% 54% 46% 54% !important; /* OVERRIDE: Fluid asymmetrical island shape */
+  box-shadow: 0 10px 25px rgba(15, 30, 41, 0.1) !important;   /* Ambient water depth shadow */
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), border-radius 0.4s ease, box-shadow 0.4s ease;
 }
 
-/* Smooth interactive lifting animation on hover */
+/* Smooth interactive floating/morphing animation on hover */
 .about-image:hover, 
 img[src*="avatar"]:hover, 
 img[src*="profile"]:hover,
 .quarto-about-solana .about-entity img:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 30px rgba(44, 26, 17, 0.22) !important;
+  transform: translateY(-6px);
+  border-radius: 48% 52% 45% 55% / 52% 48% 52% 48% !important; /* Morphs subtly like water on hover */
+  box-shadow: 0 15px 30px rgba(42, 157, 143, 0.2) !important;
 }
 
 /* ==========================================================================
-   5. FOOTER CLOSURE
+   5. SOFTWARE GRID & CARDS (Archipelagic Clusters)
    ========================================================================== */
-footer {
-  margin-top: 5rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  border-top: 1px solid rgba(137, 81, 41, 0.15);
-  color: #6E6560 !important;            /* Soft faded coco husk tone for meta info */
-  font-size: 0.9em;
-}
-
 /* Layout wrapper container grid */
 .software-grid {
   display: grid;
@@ -168,19 +169,19 @@ footer {
 .software-card {
   display: flex;
   align-items: center;
-  background-color: #FDFBFAF2 !important; /* Soft sand texture alternative contrast */
-  border: 1px solid rgba(137, 81, 41, 0.18) !important; /* Subtle Toasted Husk crisp frame border */
-  border-radius: 12px !important; /* Smoothly rounded modern corner layout */
+  background-color: #F9FCFCF2 !important; /* Crisp coastal shallow water contrast */
+  border: 1px solid rgba(42, 157, 143, 0.2) !important; /* Clean reef-line border edge */
+  border-radius: 12px !important; 
   padding: 1.25rem !important;
-  box-shadow: 0 4px 15px rgba(44, 26, 17, 0.03) !important;
+  box-shadow: 0 4px 15px rgba(15, 30, 41, 0.02) !important;
   transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s ease, box-shadow 0.25s ease;
 }
 
-/* Hover dynamics matching archipelagic life framework overlays */
+/* Hover dynamics matching archipelagic network systems */
 .software-card:hover {
   transform: translateY(-4px);
-  border-color: #895129 !important; /* Accents to toasted husk brown layout lines on hover */
-  box-shadow: 0 10px 25px rgba(44, 26, 17, 0.08) !important;
+  border-color: #2A9D8F !important;     /* Lights up to active teal on connection hover */
+  box-shadow: 0 10px 25px rgba(42, 157, 143, 0.12) !important;
 }
 
 /* Left bounding boundary box layout mapping for Hex graphics assets */
@@ -199,13 +200,13 @@ footer {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
-  filter: drop-shadow(0 2px 6px rgba(44, 26, 17, 0.12));
+  filter: drop-shadow(0 4px 6px rgba(15, 30, 41, 0.1));
 }
 
 /* Heading alignment specs within the specific card profiles */
 .software-info h3 {
   font-family: 'Playfair Display', serif !important;
-  color: #2C1A11 !important; /* Matches your premium Roasted Coconut navbar title hex */
+  color: #0F1E29 !important;             /* Midnight Marine Blue */
   font-size: 1.25rem !important;
   margin: 0 0 0.3rem 0 !important;
 }
@@ -213,7 +214,7 @@ footer {
 /* Paragraph copy parameters inside software boxes */
 .software-info p {
   font-family: 'Figtree', sans-serif !important;
-  color: #4A403A !important; /* Earth-toned deep greyish brown optimized for smaller readability */
+  color: #2D4150 !important;             /* Muted marine grey-blue optimized for small readability */
   font-size: 0.9rem !important;
   line-height: 1.5 !important;
   margin: 0 0 0.8rem 0 !important;
@@ -239,8 +240,22 @@ footer {
   margin: 0 !important;
 }
 
- /* FIX THE OVERFLOW FORCING EFFECT: */
+/* ==========================================================================
+   6. FOOTER CLOSURE & UTILITIES
+   ========================================================================== */
+footer {
+  margin-top: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid rgba(42, 157, 143, 0.15);
+  color: #526675 !important;            /* Deep sea mist tone for metadata */
+  font-size: 0.9em;
+}
+
+/* Safe word wrapping parameters across elements */
+.software-info, p, h1, h2, h3, .about-contents {
   overflow-wrap: break-word !important;
   word-wrap: break-word !important;
   word-break: break-word !important;
 }
+
