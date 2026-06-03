@@ -3,8 +3,6 @@ title: "Open-Source Software"
 subtitle: "These are the open-source packages I've built throughout the years, indexed under the [PinasR](https://pinasr.r-universe.dev/builds) repository that I also maintain."
 ---
 
-
-
 ::: {.software-grid}
 
 ::: {.software-card}
@@ -14,9 +12,12 @@ subtitle: "These are the open-source packages I've built throughout the years, i
 
 ::: {.software-info}
 ### ArchipelagoEngine
-Implements specialized spatial weights matrices tailored to eliminate "ocean voids" and prevent geographic data isolation among fragmented islands.
+Implements specialized spatial weights matrices tailored to prevent geographic data isolation among fragmented islands.
 
-[View on GitHub](https://github.com){.btn .software-btn target="_blank"}
+<div class="software-links">
+[View on GitHub](https://github.com/pinasr/ArchipelagoEngine){.btn .software-btn target="_blank"}
+[View on CRAN](https://cran.r-project.org/web/packages/ArchipelagoEngine/index.html){.btn .software-btn target="_blank"}
+</div>
 :::
 :::
 
@@ -29,7 +30,10 @@ Implements specialized spatial weights matrices tailored to eliminate "ocean voi
 ### roroph
 A machine-readable spatial data network capturing provincial links, shipping coordinates, and transit timelines across the Philippine Nautical Highway.
 
-[View on CRAN](https://r-project.org){.btn .software-btn target="_blank"}
+<div class="software-links">
+[View on GitHub](https://github.com/pinasr/roroph){.btn .software-btn target="_blank"}
+[View on CRAN](https://cran.r-project.org/web/packages/roroph/index.html){.btn .software-btn target="_blank"}
+</div>
 :::
 :::
 
@@ -42,10 +46,14 @@ A machine-readable spatial data network capturing provincial links, shipping coo
 ### palettephines
 Biologically grounded color maps reflecting distinct Philippine ecological landscape phenology patterns for data visualization pipelines.
 
-[View on CRAN](https://r-project.org){.btn .software-btn target="_blank"}
+<div class="software-links">
+[View on GitHub](https://github.com){.btn .software-btn target="_blank"}
+[View on CRAN](https://cran.r-project.org/web/packages/palettephines/index.html){.btn .software-btn target="_blank"}
+</div>
 :::
 :::
 
 :::
+
 
 
