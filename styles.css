@@ -1,8 +1,12 @@
 /* ==========================================================================
    1. GLOBAL TEXT & CONTENT STYLING (Golden Sand & Ocean Deep)
    ========================================================================== */
-body {
-  background-color: #FBF8F3 !important; /* Soft, warm tropical sand—perfectly complements warm undertones */
+body, 
+.quarto-about-solana, 
+.page-columns, 
+#quarto-content, 
+.about-entity {
+  background-color: #FBF8F3 !important; /* Forces Cosmo panels to soft warm sand—anchors his skin tone */
   color: #12232E !important;            /* Abyssal Blue for crisp contrast and readability */
   font-family: 'Figtree', sans-serif !important;
 }
@@ -21,19 +25,19 @@ p {
   letter-spacing: 0.1px;
 }
 
-/* Golden Hour Highlight (Picks up warm skin tones on **bold** text) */
+/* Marine Bioluminescent Highlight (Warm cyan glow avoids muting undertones) */
 strong, b {
   color: #0B1D28 !important;
-  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, rgba(231, 111, 81, 0.18) 35%); /* Warm sunset terracotta underline glow */
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, rgba(46, 196, 182, 0.18) 35%); /* Transparent Reef Cyan underline */
   padding: 0 2px;
 }
 
 /* ==========================================================================
-   2. NAVIGATION HEADER (Deep Sea meets Sunset)
+   2. NAVIGATION HEADER (Deep Sea Marine Transition)
    ========================================================================== */
 .navbar {
   background-color: #0B1D28 !important; /* Deep Midnight Ocean Blue */
-  border-bottom: 3px solid #E76F51 !important; /* Warm Terracotta Sunset line—draws out golden portrait tones */
+  border-bottom: 3px solid #1CA3A7 !important; /* Deep Bioluminescent Coral Teal */
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
@@ -51,7 +55,7 @@ strong, b {
 }
 
 .nav-link:hover {
-  color: #E76F51 !important;            /* Illuminates to warm terracotta on hover */
+  color: #2EC4B6 !important;            /* Illuminates to active Reef Cyan on hover */
   opacity: 1;
 }
 
@@ -62,7 +66,7 @@ strong, b {
 
 .dropdown-menu {
   background-color: #0B1D28 !important;
-  border: 1px solid #E76F51 !important;
+  border: 1px solid #1CA3A7 !important;
 }
 
 .dropdown-item {
@@ -70,18 +74,18 @@ strong, b {
 }
 
 .dropdown-item:hover {
-  background-color: #E76F51 !important;
+  background-color: #1CA3A7 !important;
   color: #0B1D28 !important;
 }
 
 /* ==========================================================================
-   3. INLINE HYPERLINKS & BUTTONS (Reef & Shore Connections)
+   3. INLINE HYPERLINKS & BUTTONS (Aquatic Connections)
    ========================================================================== */
 .page-columns p a, 
 .about-contents a:not(.btn) {
-  color: #E76F51 !important;            /* Terracotta anchor links */
+  color: #1CA3A7 !important;            /* Coastal Teal anchor links */
   text-decoration: underline;
-  text-decoration-color: rgba(231, 111, 81, 0.3);
+  text-decoration-color: rgba(28, 163, 167, 0.3);
   transition: color 0.2s ease, text-decoration-color 0.2s ease;
 }
 
@@ -96,7 +100,7 @@ strong, b {
 .about-links a.btn {
   background-color: #F4ECE1 !important; /* Bleached coral sand */
   color: #0B1D28 !important;            /* Deep ocean text */
-  border: 1px solid #E76F51 !important; /* Terracotta sunset border */
+  border: 1px solid #1CA3A7 !important; /* Coral Teal border line */
   border-radius: 30px !important;       /* Smooth pebble shape */
   padding: 0.5rem 1.4rem !important;
   font-family: 'Figtree', sans-serif !important;
@@ -108,25 +112,25 @@ strong, b {
 
 .about-links .btn:hover,
 .about-links a.btn:hover {
-  background-color: #E76F51 !important; /* Fills with warm sunset glow */
+  background-color: #1CA3A7 !important; /* Fills with full aquatic teal */
   color: #F7F5F0 !important;            /* Text turns bright sea-spray white */
-  border-color: #E76F51 !important;
+  border-color: #1CA3A7 !important;
   transform: translateY(-2px);
-  box-shadow: 0 5px 12px rgba(231, 111, 81, 0.25) !important;
+  box-shadow: 0 5px 12px rgba(28, 163, 167, 0.25) !important;
 }
 
 /* ==========================================================================
-   4. PORTRAIT HERO IMAGE (The Ultimate Skin Tone Framework)
+   4. PORTRAIT HERO IMAGE (Perfect Uniform Framing)
    ========================================================================== */
 .about-image, 
 img[src*="avatar"], 
 img[src*="profile"],
 .quarto-about-solana .about-entity img {
-  border: 4px solid #FBF8F3 !important;   /* Matches warm sand background to make portrait seamless */
-  outline: 2px solid #E76F51 !important;  /* Warm terracotta halo—reflects light beautifully onto golden skin */
-  border-radius: 53% 47% 52% 48% / 46% 54% 46% 54% !important; /* Fluid asymmetrical island shape */
-  box-shadow: 0 10px 30px rgba(231, 111, 81, 0.08) !important;  /* Warm, rich ambient shadow instead of grey */
-  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), border-radius 0.4s ease, box-shadow 0.4s ease;
+  border: 4px solid #FBF8F3 !important;   /* Matches sand background seamlessly */
+  outline: 2px solid #1CA3A7 !important;  /* Coral Teal outline—the green pigments highlight golden undertones */
+  border-radius: 50% !important;          /* FIX: Forces a perfect clean matching circle ring layout */
+  box-shadow: 0 10px 30px rgba(11, 29, 40, 0.08) !important;  
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s ease;
 }
 
 .about-image:hover, 
@@ -134,8 +138,7 @@ img[src*="avatar"]:hover,
 img[src*="profile"]:hover,
 .quarto-about-solana .about-entity img:hover {
   transform: translateY(-6px);
-  border-radius: 48% 52% 45% 55% / 52% 48% 52% 48% !important; /* Water fluid morph */
-  box-shadow: 0 15px 35px rgba(231, 111, 81, 0.18) !important;
+  box-shadow: 0 15px 35px rgba(28, 163, 167, 0.2) !important;
 }
 
 /* ==========================================================================
@@ -153,7 +156,7 @@ img[src*="profile"]:hover,
   display: flex;
   align-items: center;
   background-color: #F9F5EEF2 !important; /* Clean shallow reef contrast */
-  border: 1px solid rgba(231, 111, 81, 0.2) !important; /* Crisp coastal sunset frame */
+  border: 1px solid rgba(28, 163, 167, 0.2) !important; /* Translucent aquatic border frame */
   border-radius: 12px !important; 
   padding: 1.25rem !important;
   box-shadow: 0 4px 15px rgba(11, 29, 40, 0.02) !important;
@@ -162,8 +165,8 @@ img[src*="profile"]:hover,
 
 .software-card:hover {
   transform: translateY(-4px);
-  border-color: #E76F51 !important;     /* Lights up to sunset terracotta on connection hover */
-  box-shadow: 0 10px 25px rgba(231, 111, 81, 0.1) !important;
+  border-color: #2EC4B6 !important;     /* Lights up to bright reef cyan on link connection hover */
+  box-shadow: 0 10px 25px rgba(46, 196, 182, 0.1) !important;
 }
 
 .software-logo-box {
@@ -222,7 +225,7 @@ footer {
   margin-top: 5rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  border-top: 1px solid rgba(231, 111, 81, 0.15);
+  border-top: 1px solid rgba(28, 163, 167, 0.15);
   color: #55646E !important;            /* Muted maritime gray */
   font-size: 0.9em;
 }
