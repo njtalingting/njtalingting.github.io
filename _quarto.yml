@@ -26,6 +26,6 @@ format:
     theme:
       light: [cosmo, styles.css]
       dark: [cosmo, styles.css]
-    toggle-theme: true           # Explicitly activates the Sun/Moon interactive toggle switch
+    theme-toggle: true           # Explicitly activates the Sun/Moon interactive toggle switch
     toc: true
     include-in-header: schema.html
