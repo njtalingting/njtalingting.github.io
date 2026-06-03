@@ -1,0 +1,46 @@
+---
+title: "Open-Source Software"
+subtitle: "Calibrating geospatial tools and ecological color spaces for archipelagic realities."
+---
+
+Here is a collection of spatial computing libraries and color palette systems engineered to address the distinct topological dynamics of island environments.
+
+<div class="software-grid">
+  
+  <!-- Card 1: ArchipelagoEngine -->
+  <div class="software-card">
+    <div class="software-logo-box">
+      <img src="images/archipelago_logo.png" alt="ArchipelagoEngine Hex Logo" class="software-logo">
+    </div>
+    <div class="software-info">
+      <h3>ArchipelagoEngine</h3>
+      <p>Implements specialized K-Nearest Neighbor (KNN) spatial weights matrices (W) tailored to prevent geographic data isolation among fragmented islands.</p>
+      <a href="https://github.com/njtalingting" class="btn software-btn" target="_blank">View on GitHub</a>
+    </div>
+  </div>
+
+  <!-- Card 2: roroph -->
+  <div class="software-card">
+    <div class="software-logo-box">
+      <img src="images/roroph_logo.png" alt="roroph Hex Logo" class="software-logo">
+    </div>
+    <div class="software-info">
+      <h3>roroph</h3>
+      <p>A machine-readable spatial data network capturing provincial links, shipping coordinates, and travel times across the primary avenues of the Philippine Nautical Highway System.</p>
+      <a href="https://cran.r-project.org/package=roroph" class="btn software-btn" target="_blank">View on CRAN</a>
+    </div>
+  </div>
+
+  <!-- Card 3: palettephines -->
+  <div class="software-card">
+    <div class="software-logo-box">
+      <img src="images/palettephines_logo.png" alt="palettephines Hex Logo" class="software-logo">
+    </div>
+    <div class="software-info">
+      <h3>palettephines</h3>
+      <p>Biologically grounded color maps reflecting distinct Philippine ecological landscape phenology patterns, intended for analytical data visualization pipelines.</p>
+      <a href="https://cran.r-project.org/web/packages/palettephines/index.html" class="btn software-btn" target="_blank">View on CRAN</a>
+    </div>
+  </div>
+
+</div>
