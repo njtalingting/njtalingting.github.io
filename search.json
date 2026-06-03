@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "NJ Talingting",
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Open-Source Software",
     "section": "",
-    "text": "Hello, world! I develop open-source packages that fix the bias where spatial tools treat the ocean as an empty void than a medium of connectivity when applied to archipelagos.\nMy years in public office and studies of statistics near the Cebu Port Authority has deeply grounded my work so that they meet the reality of archipelagic life.\nOutside work, I’ve founded PinasR, a centralized repository for R packages made by Filipinos. You may find my core spatial tools at CRAN."
+    "text": "Here is a collection of spatial computing libraries and color palette systems engineered to address the distinct topological dynamics of island environments.\n\n\n\n&lt;div class=\"software-logo-box\"&gt;\n  &lt;img src=\"images/archipelago_logo.png\" alt=\"ArchipelagoEngine Hex Logo\" class=\"software-logo\"&gt;\n&lt;/div&gt;\n&lt;div class=\"software-info\"&gt;\n  &lt;h3&gt;ArchipelagoEngine&lt;/h3&gt;\n  &lt;p&gt;Implements specialized K-Nearest Neighbor (KNN) spatial weights matrices (W) tailored to prevent geographic data isolation among fragmented islands.&lt;/p&gt;\n  &lt;a href=\"https://github.com/njtalingting\" class=\"btn software-btn\" target=\"_blank\"&gt;View on GitHub&lt;/a&gt;\n&lt;/div&gt;\n\n\n\n&lt;div class=\"software-logo-box\"&gt;\n  &lt;img src=\"images/roroph_logo.png\" alt=\"roroph Hex Logo\" class=\"software-logo\"&gt;\n&lt;/div&gt;\n&lt;div class=\"software-info\"&gt;\n  &lt;h3&gt;roroph&lt;/h3&gt;\n  &lt;p&gt;A machine-readable spatial data network capturing provincial links, shipping coordinates, and travel times across the primary avenues of the Philippine Nautical Highway System.&lt;/p&gt;\n  &lt;a href=\"https://cran.r-project.org/package=roroph\" class=\"btn software-btn\" target=\"_blank\"&gt;View on CRAN&lt;/a&gt;\n&lt;/div&gt;\n\n\n\n&lt;div class=\"software-logo-box\"&gt;\n  &lt;img src=\"images/palettephines_logo.png\" alt=\"palettephines Hex Logo\" class=\"software-logo\"&gt;\n&lt;/div&gt;\n&lt;div class=\"software-info\"&gt;\n  &lt;h3&gt;palettephines&lt;/h3&gt;\n  &lt;p&gt;Biologically grounded color maps reflecting distinct Philippine ecological landscape phenology patterns, intended for analytical data visualization pipelines.&lt;/p&gt;\n  &lt;a href=\"https://cran.r-project.org/web/packages/palettephines/index.html\" class=\"btn software-btn\" target=\"_blank\"&gt;View on CRAN&lt;/a&gt;\n&lt;/div&gt;"
+  },
+  {
+    "objectID": "recognition.html",
+    "href": "recognition.html",
+    "title": "Recognition",
+    "section": "",
+    "text": "Tunay na Iskolar ng Bayan Scholarship Recipient (2020) I’ve received a fully-funded scholarship to study at an international school in Cebu that offers IGCSE/A-levels.\n\n\n \n\n\n\nFigure 1: CIE British School and Rotary Club scholarship feature presentation."
   },
   {
     "objectID": "resources.html",
@@ -35,10 +42,10 @@
     "text": "Transforming R Functions into Package\n\n\n\nIf you have other questions about my experience navigating college life as a Statistics student, submitting to CRAN, making and maintaining your first package in the Global South, and anything we share in common, feel free to email me at ninotalingting77@gmail.com. Don’t forget to test your assumptions and map your residuals!"
   },
   {
-    "objectID": "recognition.html",
-    "href": "recognition.html",
-    "title": "Recognition",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NJ Talingting",
     "section": "",
-    "text": "Tunay na Iskolar ng Bayan Scholarship Recipient (2020) I’ve received a fully-funded scholarship to study at an international school in Cebu that offers IGCSE/A-levels.\n\n\n \n\n\n\nFigure 1: CIE British School and Rotary Club scholarship feature presentation."
+    "text": "Hello, world! I develop open-source packages that fix the bias where spatial tools treat the ocean as an empty void than a medium of connectivity when applied to archipelagos.\nMy years in public office and studies of statistics near the Cebu Port Authority has deeply grounded my work so that they meet the reality of archipelagic life.\nOutside work, I’ve founded PinasR, a centralized repository for R packages made by Filipinos. You may find my core spatial tools at CRAN."
   }
 ]
