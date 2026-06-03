@@ -4,7 +4,7 @@
     "href": "software.html",
     "title": "Open-Source Software",
     "section": "",
-    "text": "ArchipelagoEngine\nImplements specialized spatial weights matrices tailored to prevent geographic data isolation among fragmented islands.\n\nView on GitHub View on CRAN\n\n\n\n\n\n\n\n\nroroph\nA machine-readable spatial data network capturing provincial links, shipping coordinates, and transit timelines across the Philippine Nautical Highway.\n\nView on GitHub View on CRAN\n\n\n\n\n\n\n\n\npalettephines\nBiologically grounded color maps reflecting distinct Philippine ecological landscape phenology patterns for data visualization pipelines.\n\nView on GitHub View on CRAN"
+    "text": "ArchipelagoEngine\nConstructs a Spatial Weight Matrix (listw) for Spatial Autoregressive (SAR) model in Noncontiguous Geographies\n\nView on GitHub View on CRAN\n\n\n\n\n\n\n\n\nroroph\nTransforms the Philippine Nautical Highway System into Network Graph for Statistical Modeling\n\nView on GitHub View on CRAN\n\n\n\n\n\n\n\n\npalettephines\nGrounds Spatial Visualization with Plant Phenology (BBCH-scale) and Marine Health (Reef Health Index)\n\nView on GitHub View on CRAN"
   },
   {
     "objectID": "recognition.html",
