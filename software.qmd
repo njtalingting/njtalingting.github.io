@@ -47,7 +47,7 @@ A machine-readable spatial data network capturing provincial links, shipping coo
 Biologically grounded color maps reflecting distinct Philippine ecological landscape phenology patterns for data visualization pipelines.
 
 <div class="software-links">
-[View on GitHub](https://github.com){.btn .software-btn target="_blank"}
+[View on GitHub](https://github.com/pinasr/palettephines){.btn .software-btn target="_blank"}
 [View on CRAN](https://cran.r-project.org/web/packages/palettephines/index.html){.btn .software-btn target="_blank"}
 </div>
 :::
