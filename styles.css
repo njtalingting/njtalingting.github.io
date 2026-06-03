@@ -1,8 +1,11 @@
+/* ==========================================================================
+   Archipelagic Roasted Coconut Theme
+   ========================================================================== */
 
 /* Main Header Bar Styling */
 .navbar {
-  background-color: #D96B43 !important; /* Muted Terracotta */
-  border-bottom: 3px solid #EAA15F !important; /* Lighter sunset glow border */
+  background-color: #2C1A11 !important; /* Rich Dark Coconut Shell Brown */
+  border-bottom: 3px solid #895129 !important; /* Toasted Husk accent line */
 }
 
 /* Hides the redundant navbar brand text while keeping the logo icon visible */
@@ -12,27 +15,30 @@
 
 /* Header Navbar Links Typography */
 .nav-link {
-  color: #FDF6ED !important; /* Warm Ivory text */
+  font-family: 'Figtree', sans-serif !important; /* Clean geometric body font */
+  color: #F9F6F0 !important; /* Bright Coconut Milk text */
   font-weight: 500;
+  letter-spacing: 0.5px;
 }
 
-/* Subtle fade effect when hovering over links */
+/* Clean hover fade effect on links */
 .nav-link:hover {
-  color: #FDF6ED !important;
+  color: #F9F6F0 !important;
   opacity: 0.8;
 }
 
-/* Dropdown menu styling if you have sub-menus */
+/* Search icon color fix to match coconut milk text */
+.quarto-search-toggle .bi-search {
+  color: #F9F6F0 !important;
+}
+
+/* Dropdown menu styling for mobile or nested sections */
 .dropdown-menu {
-  background-color: #D96B43 !important;
-  border: 1px solid #EAA15F !important;
+  background-color: #2C1A11 !important;
+  border: 1px solid #895129 !important;
 }
 
 .dropdown-item {
-  color: #FDF6ED !important;
+  color: #F9F6F0 !important;
 }
 
-/* Search icon color fix (if using Quarto's built-in search) */
-.quarto-search-toggle .bi-search {
-  color: #FDF6ED !important;
-}
