@@ -23,9 +23,8 @@ website:
 
 format:
   html:
-    theme:
-      light: [cosmo, styles.css]
-      dark: [cosmo, styles.css]
-    theme-toggle: true           # Explicitly activates the Sun/Moon interactive toggle switch
+    theme: cosmo
+    css: styles.css
+    theme-toggle: true           # Activates the sun/moon button safely
     toc: true
     include-in-header: schema.html
