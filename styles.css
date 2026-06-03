@@ -168,3 +168,74 @@ footer {
   color: #6E6560 !important;            /* Soft faded coco husk tone for meta info */
   font-size: 0.9em;
 }
+
+/* Layout wrapper container grid */
+.software-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+/* Individual rectangular card structure */
+.software-card {
+  display: flex;
+  align-items: center;
+  background-color: #FDFBFAF2 !important; /* Soft sand texture alternative contrast */
+  border: 1px solid rgba(137, 81, 41, 0.18) !important; /* Subtle Toasted Husk crisp frame border */
+  border-radius: 12px !important; /* Smoothly rounded modern corner layout */
+  padding: 1.25rem !important;
+  box-shadow: 0 4px 15px rgba(44, 26, 17, 0.03) !important;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s ease, box-shadow 0.25s ease;
+}
+
+/* Hover dynamics matching archipelagic life framework overlays */
+.software-card:hover {
+  transform: translateY(-4px);
+  border-color: #895129 !important; /* Accents to toasted husk brown layout lines on hover */
+  box-shadow: 0 10px 25px rgba(44, 26, 17, 0.08) !important;
+}
+
+/* Left bounding boundary box layout mapping for Hex graphics assets */
+.software-logo-box {
+  flex-shrink: 0;
+  width: 80px;
+  height: 90px;
+  margin-right: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Constraints handling responsive scaling of vector or raster stickers */
+.software-logo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 6px rgba(44, 26, 17, 0.12));
+}
+
+/* Heading alignment specs within the specific card profiles */
+.software-info h3 {
+  font-family: 'Playfair Display', serif !important;
+  color: #2C1A11 !important; /* Matches your premium Roasted Coconut navbar title hex */
+  font-size: 1.25rem !important;
+  margin: 0 0 0.3rem 0 !important;
+}
+
+/* Paragraph copy parameters inside software boxes */
+.software-info p {
+  font-family: 'Figtree', sans-serif !important;
+  color: #4A403A !important; /* Earth-toned deep greyish brown optimized for smaller readability */
+  font-size: 0.9rem !important;
+  line-height: 1.5 !important;
+  margin: 0 0 0.8rem 0 !important;
+}
+
+/* Compact version settings for the embedded pebble style action button triggers */
+.software-btn {
+  font-size: 0.8rem !important;
+  padding: 0.35rem 1.1rem !important;
+  display: inline-block;
+}
