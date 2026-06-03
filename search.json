@@ -4,7 +4,7 @@
     "href": "software.html",
     "title": "Open-Source Software",
     "section": "",
-    "text": "ArchipelagoEngine\nImplements specialized spatial weights matrices tailored to eliminate “ocean voids” and prevent geographic data isolation among fragmented islands.\nView on GitHub\n\n\n\n\n\n\n\nroroph\nA machine-readable spatial data network capturing provincial links, shipping coordinates, and transit timelines across the Philippine Nautical Highway.\nView on CRAN\n\n\n\n\n\n\n\npalettephines\nBiologically grounded color maps reflecting distinct Philippine ecological landscape phenology patterns for data visualization pipelines.\nView on CRAN"
+    "text": "ArchipelagoEngine\nImplements specialized spatial weights matrices tailored to prevent geographic data isolation among fragmented islands.\n\nView on GitHub View on CRAN\n\n\n\n\n\n\n\n\nroroph\nA machine-readable spatial data network capturing provincial links, shipping coordinates, and transit timelines across the Philippine Nautical Highway.\n\nView on GitHub View on CRAN\n\n\n\n\n\n\n\n\npalettephines\nBiologically grounded color maps reflecting distinct Philippine ecological landscape phenology patterns for data visualization pipelines.\n\nView on GitHub View on CRAN"
   },
   {
     "objectID": "recognition.html",
