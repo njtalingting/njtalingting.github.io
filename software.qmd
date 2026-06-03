@@ -1,10 +1,9 @@
 ---
 title: "Open-Source Software"
-subtitle: "Calibrating geospatial tools and ecological color spaces for archipelagic realities."
+subtitle: "These are the open-source packages I've developed throughout the years, indexed under the **PinasR** repository"
 ---
 
-Here is a collection of spatial computing libraries and color palette systems engineered to address the distinct topological dynamics of island environments.
-
+::: {=html}
 <div class="software-grid">
   
   <!-- Card 1: ArchipelagoEngine -->
@@ -14,8 +13,8 @@ Here is a collection of spatial computing libraries and color palette systems en
     </div>
     <div class="software-info">
       <h3>ArchipelagoEngine</h3>
-      <p>Implements specialized K-Nearest Neighbor (KNN) spatial weights matrices (W) tailored to prevent geographic data isolation among fragmented islands.</p>
-      <a href="https://github.com/njtalingting" class="btn software-btn" target="_blank">View on GitHub</a>
+      <p>Implements specialized spatial weights matrices tailored to prevent geographic isolation among fragmented islands.</p>
+      <a href="https://github.com" class="btn software-btn" target="_blank">View on GitHub</a>
     </div>
   </div>
 
@@ -26,8 +25,8 @@ Here is a collection of spatial computing libraries and color palette systems en
     </div>
     <div class="software-info">
       <h3>roroph</h3>
-      <p>A machine-readable spatial data network capturing provincial links, shipping coordinates, and travel times across the primary avenues of the Philippine Nautical Highway System.</p>
-      <a href="https://cran.r-project.org/package=roroph" class="btn software-btn" target="_blank">View on CRAN</a>
+      <p>A machine-readable spatial data network capturing provincial links, shipping coordinates, and transit timelines across the Philippine Nautical Highway.</p>
+      <a href="https://r-project.org" class="btn software-btn" target="_blank">View on CRAN</a>
     </div>
   </div>
 
@@ -38,9 +37,11 @@ Here is a collection of spatial computing libraries and color palette systems en
     </div>
     <div class="software-info">
       <h3>palettephines</h3>
-      <p>Biologically grounded color maps reflecting distinct Philippine ecological landscape phenology patterns, intended for analytical data visualization pipelines.</p>
-      <a href="https://cran.r-project.org/web/packages/palettephines/index.html" class="btn software-btn" target="_blank">View on CRAN</a>
+      <p>Biologically grounded color maps reflecting distinct Philippine ecological landscape phenology and marine health patterns for data visualization.</p>
+      <a href="https://r-project.org" class="btn software-btn" target="_blank">View on CRAN</a>
     </div>
   </div>
 
 </div>
+:::
+
