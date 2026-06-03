@@ -1,162 +1,146 @@
 /* ==========================================================================
-   1. GLOBAL TEXT & CONTENT STYLING (Maritime Foundations)
+   1. GLOBAL TEXT & CONTENT STYLING (Golden Sand & Ocean Deep)
    ========================================================================== */
 body {
-  background-color: #F4F8F8 !important; /* Soft oceanic mist/seafoam tint instead of warm sand */
-  color: #1A2E3B !important;            /* Deep Abyssal Blue for premium, accessible readability */
+  background-color: #FBF8F3 !important; /* Soft, warm tropical sand—perfectly complements warm undertones */
+  color: #12232E !important;            /* Abyssal Blue for crisp contrast and readability */
   font-family: 'Figtree', sans-serif !important;
 }
 
-/* Page Titles and Section Headings (Fluid, oceanic serifs) */
+/* Page Titles and Section Headings (Elegant maritime serifs) */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif !important;
-  color: #0F1E29 !important;            /* Midnight Marine Blue */
+  color: #0B1D28 !important;            /* Deep Midnight Ocean Blue */
   font-weight: 700;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
 }
 
-/* Base paragraph layout spacing */
 p {
   line-height: 1.7;
   letter-spacing: 0.1px;
 }
 
-/* Maritime Channel Highlight for Important Keywords (triggers when using **bold** markers) */
+/* Golden Hour Highlight (Picks up warm skin tones on **bold** text) */
 strong, b {
-  color: #0F1E29 !important;
-  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, rgba(42, 157, 143, 0.15) 35%); /* Ocean teal underline channel glow */
+  color: #0B1D28 !important;
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, rgba(231, 111, 81, 0.18) 35%); /* Warm sunset terracotta underline glow */
   padding: 0 2px;
 }
 
 /* ==========================================================================
-   2. NAVIGATION HEADER (The Maritime Transit Layer)
+   2. NAVIGATION HEADER (Deep Sea meets Sunset)
    ========================================================================== */
 .navbar {
-  background-color: #0F1E29 !important; /* Midnight Marine Blue instead of Coconut Brown */
-  border-bottom: 3px solid #2A9D8F !important; /* Deep Tropical Teal accent line representing shallow reefs */
+  background-color: #0B1D28 !important; /* Deep Midnight Ocean Blue */
+  border-bottom: 3px solid #E76F51 !important; /* Warm Terracotta Sunset line—draws out golden portrait tones */
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
 
-/* Hides the redundant navbar brand text while keeping the logo icon visible */
 .navbar-brand .navbar-title {
   display: none !important;
 }
 
-/* Header Navbar Links Typography */
 .nav-link {
   font-family: 'Figtree', sans-serif !important;
-  color: #E8F1F5 !important;            /* Sea-spray white text */
+  color: #F7F5F0 !important;            /* Sea-spray white */
   font-weight: 500;
   letter-spacing: 0.5px;
   transition: opacity 0.2s ease, color 0.2s ease;
 }
 
-/* Clean hover fade effect on navbar links */
 .nav-link:hover {
-  color: #2A9D8F !important;            /* Illuminates to reef teal on hover */
+  color: #E76F51 !important;            /* Illuminates to warm terracotta on hover */
   opacity: 1;
 }
 
-/* Search icon color fix to match sea-spray text */
-.quarto-search-toggle .bi-search {
-  color: #E8F1F5 !important;
-}
-
-/* Dark/Light mode theme toggle icon color adjustment */
+.quarto-search-toggle .bi-search,
 .quarto-color-scheme-toggle .bi {
-  color: #E8F1F5 !important;
+  color: #F7F5F0 !important;
 }
 
-/* Dropdown menu styling for mobile displays or nested tracks */
 .dropdown-menu {
-  background-color: #0F1E29 !important;
-  border: 1px solid #2A9D8F !important;
+  background-color: #0B1D28 !important;
+  border: 1px solid #E76F51 !important;
 }
 
 .dropdown-item {
-  color: #E8F1F5 !important;
+  color: #F7F5F0 !important;
 }
 
 .dropdown-item:hover {
-  background-color: #2A9D8F !important;
-  color: #0F1E29 !important;
+  background-color: #E76F51 !important;
+  color: #0B1D28 !important;
 }
 
 /* ==========================================================================
-   3. INLINE HYPERLINKS & BUTTONS (Island Connections)
+   3. INLINE HYPERLINKS & BUTTONS (Reef & Shore Connections)
    ========================================================================== */
-/* Hyperlinks inside your main website content paragraphs */
 .page-columns p a, 
 .about-contents a:not(.btn) {
-  color: #1D7A8C !important;            /* Coastal teal anchor color */
+  color: #E76F51 !important;            /* Terracotta anchor links */
   text-decoration: underline;
-  text-decoration-color: rgba(29, 122, 140, 0.3);
+  text-decoration-color: rgba(231, 111, 81, 0.3);
   transition: color 0.2s ease, text-decoration-color 0.2s ease;
 }
 
-/* Inline Page Links Hover Effect */
 .page-columns p a:hover, 
 .about-contents a:hover:not(.btn) {
-  color: #0F1E29 !important;            /* Deepens to abyssal blue on hover */
-  text-decoration-color: #0F1E29;
+  color: #0B1D28 !important;
+  text-decoration-color: #0B1D28;
 }
 
-/* Reef Pebble-Shaped Action Badges (for social/about links) */
+/* Coastal Pebble-Shaped Buttons */
 .about-links .btn,
 .about-links a.btn {
-  background-color: #EBF3F5 !important; /* Bleached coral/sand white */
-  color: #0F1E29 !important;            /* Midnight marine text */
-  border: 1px solid #2A9D8F !important; /* Tropical reef teal border */
+  background-color: #F4ECE1 !important; /* Bleached coral sand */
+  color: #0B1D28 !important;            /* Deep ocean text */
+  border: 1px solid #E76F51 !important; /* Terracotta sunset border */
   border-radius: 30px !important;       /* Smooth pebble shape */
   padding: 0.5rem 1.4rem !important;
   font-family: 'Figtree', sans-serif !important;
   font-weight: 500;
   text-decoration: none !important;
-  box-shadow: 0 2px 5px rgba(15, 30, 41, 0.05) !important;
+  box-shadow: 0 2px 5px rgba(11, 29, 40, 0.04) !important;
   transition: all 0.2s ease !important;
 }
 
-/* Pebble Badges Hover Effect */
 .about-links .btn:hover,
 .about-links a.btn:hover {
-  background-color: #2A9D8F !important; /* Fills with vivid reef teal */
-  color: #E8F1F5 !important;            /* Text turns to sea-spray white */
-  border-color: #1D7A8C !important;
+  background-color: #E76F51 !important; /* Fills with warm sunset glow */
+  color: #F7F5F0 !important;            /* Text turns bright sea-spray white */
+  border-color: #E76F51 !important;
   transform: translateY(-2px);
-  box-shadow: 0 5px 12px rgba(42, 157, 143, 0.25) !important;
+  box-shadow: 0 5px 12px rgba(231, 111, 81, 0.25) !important;
 }
 
 /* ==========================================================================
-   4. PORTRAIT HERO IMAGE (Organic Fluid Overhaul)
+   4. PORTRAIT HERO IMAGE (The Ultimate Skin Tone Framework)
    ========================================================================== */
-/* Targets your primary landing page portrait photo */
 .about-image, 
 img[src*="avatar"], 
 img[src*="profile"],
 .quarto-about-solana .about-entity img {
-  border: 4px solid #E8F1F5 !important;   /* Sea-spray white inner ring */
-  outline: 2px solid #2A9D8F !important;  /* Deep reef teal outer tracking line */
-  border-radius: 53% 47% 52% 48% / 46% 54% 46% 54% !important; /* OVERRIDE: Fluid asymmetrical island shape */
-  box-shadow: 0 10px 25px rgba(15, 30, 41, 0.1) !important;   /* Ambient water depth shadow */
+  border: 4px solid #FBF8F3 !important;   /* Matches warm sand background to make portrait seamless */
+  outline: 2px solid #E76F51 !important;  /* Warm terracotta halo—reflects light beautifully onto golden skin */
+  border-radius: 53% 47% 52% 48% / 46% 54% 46% 54% !important; /* Fluid asymmetrical island shape */
+  box-shadow: 0 10px 30px rgba(231, 111, 81, 0.08) !important;  /* Warm, rich ambient shadow instead of grey */
   transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), border-radius 0.4s ease, box-shadow 0.4s ease;
 }
 
-/* Smooth interactive floating/morphing animation on hover */
 .about-image:hover, 
 img[src*="avatar"]:hover, 
 img[src*="profile"]:hover,
 .quarto-about-solana .about-entity img:hover {
   transform: translateY(-6px);
-  border-radius: 48% 52% 45% 55% / 52% 48% 52% 48% !important; /* Morphs subtly like water on hover */
-  box-shadow: 0 15px 30px rgba(42, 157, 143, 0.2) !important;
+  border-radius: 48% 52% 45% 55% / 52% 48% 52% 48% !important; /* Water fluid morph */
+  box-shadow: 0 15px 35px rgba(231, 111, 81, 0.18) !important;
 }
 
 /* ==========================================================================
    5. SOFTWARE GRID & CARDS (Archipelagic Clusters)
    ========================================================================== */
-/* Layout wrapper container grid */
 .software-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -165,26 +149,23 @@ img[src*="profile"]:hover,
   margin-bottom: 3rem;
 }
 
-/* Individual rectangular card structure */
 .software-card {
   display: flex;
   align-items: center;
-  background-color: #F9FCFCF2 !important; /* Crisp coastal shallow water contrast */
-  border: 1px solid rgba(42, 157, 143, 0.2) !important; /* Clean reef-line border edge */
+  background-color: #F9F5EEF2 !important; /* Clean shallow reef contrast */
+  border: 1px solid rgba(231, 111, 81, 0.2) !important; /* Crisp coastal sunset frame */
   border-radius: 12px !important; 
   padding: 1.25rem !important;
-  box-shadow: 0 4px 15px rgba(15, 30, 41, 0.02) !important;
+  box-shadow: 0 4px 15px rgba(11, 29, 40, 0.02) !important;
   transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s ease, box-shadow 0.25s ease;
 }
 
-/* Hover dynamics matching archipelagic network systems */
 .software-card:hover {
   transform: translateY(-4px);
-  border-color: #2A9D8F !important;     /* Lights up to active teal on connection hover */
-  box-shadow: 0 10px 25px rgba(42, 157, 143, 0.12) !important;
+  border-color: #E76F51 !important;     /* Lights up to sunset terracotta on connection hover */
+  box-shadow: 0 10px 25px rgba(231, 111, 81, 0.1) !important;
 }
 
-/* Left bounding boundary box layout mapping for Hex graphics assets */
 .software-logo-box {
   flex-shrink: 0;
   width: 80px;
@@ -195,39 +176,34 @@ img[src*="profile"]:hover,
   justify-content: center;
 }
 
-/* Constraints handling responsive scaling of vector or raster stickers */
 .software-logo {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
-  filter: drop-shadow(0 4px 6px rgba(15, 30, 41, 0.1));
+  filter: drop-shadow(0 4px 6px rgba(11, 29, 40, 0.08));
 }
 
-/* Heading alignment specs within the specific card profiles */
 .software-info h3 {
   font-family: 'Playfair Display', serif !important;
-  color: #0F1E29 !important;             /* Midnight Marine Blue */
+  color: #0B1D28 !important;             /* Midnight Ocean Blue */
   font-size: 1.25rem !important;
   margin: 0 0 0.3rem 0 !important;
 }
 
-/* Paragraph copy parameters inside software boxes */
 .software-info p {
   font-family: 'Figtree', sans-serif !important;
-  color: #2D4150 !important;             /* Muted marine grey-blue optimized for small readability */
+  color: #34444F !important;             /* Balanced grey-blue optimized for small copy readability */
   font-size: 0.9rem !important;
   line-height: 1.5 !important;
   margin: 0 0 0.8rem 0 !important;
 }
 
-/* Compact version settings for the embedded pebble style action button triggers */
 .software-btn {
   font-size: 0.8rem !important;
   padding: 0.35rem 1.1rem !important;
   display: inline-block;
 }
 
-/* Container to align multiple buttons side-by-side inside card info fields */
 .software-links {
   display: flex;
   flex-wrap: wrap;
@@ -235,7 +211,6 @@ img[src*="profile"]:hover,
   margin-top: 0.75rem;
 }
 
-/* Adjust button layout to scale gracefully */
 .software-links .software-btn {
   margin: 0 !important;
 }
@@ -247,12 +222,11 @@ footer {
   margin-top: 5rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  border-top: 1px solid rgba(42, 157, 143, 0.15);
-  color: #526675 !important;            /* Deep sea mist tone for metadata */
+  border-top: 1px solid rgba(231, 111, 81, 0.15);
+  color: #55646E !important;            /* Muted maritime gray */
   font-size: 0.9em;
 }
 
-/* Safe word wrapping parameters across elements */
 .software-info, p, h1, h2, h3, .about-contents {
   overflow-wrap: break-word !important;
   word-wrap: break-word !important;
