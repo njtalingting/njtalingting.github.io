@@ -1,11 +1,35 @@
+/* 1. GLOBAL TEXT & CONTENT STYLING */
+body {
+  background-color: #FCFAF7 !important; /* Soft, warm sand background instead of stark white */
+  color: #2A2421 !important;            /* Deep Espresso Brown for elite readability */
+  font-family: 'Figtree', sans-serif !important;
+}
+
+/* Page Titles and Section Headings (Wavy, elegant fluid serifs) */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif !important;
+  color: #2C1A11 !important;            /* Dark Roasted Coconut Shell */
+  font-weight: 700;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Base paragraph layout spacing */
+p {
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+}
+
 /* ==========================================================================
-   Archipelagic Roasted Coconut Theme
+   2. HEADER NAVIGATION BAR
    ========================================================================== */
 
-/* Main Header Bar Styling */
+/* Main Header Container */
 .navbar {
   background-color: #2C1A11 !important; /* Rich Dark Coconut Shell Brown */
   border-bottom: 3px solid #895129 !important; /* Toasted Husk accent line */
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 /* Hides the redundant navbar brand text while keeping the logo icon visible */
@@ -15,13 +39,14 @@
 
 /* Header Navbar Links Typography */
 .nav-link {
-  font-family: 'Figtree', sans-serif !important; /* Clean geometric body font */
-  color: #F9F6F0 !important; /* Bright Coconut Milk text */
+  font-family: 'Figtree', sans-serif !important;
+  color: #F9F6F0 !important;            /* Bright Coconut Milk text */
   font-weight: 500;
   letter-spacing: 0.5px;
+  transition: opacity 0.2s ease, color 0.2s ease;
 }
 
-/* Clean hover fade effect on links */
+/* Clean hover fade effect on navbar links */
 .nav-link:hover {
   color: #F9F6F0 !important;
   opacity: 0.8;
@@ -32,7 +57,7 @@
   color: #F9F6F0 !important;
 }
 
-/* Dropdown menu styling for mobile or nested sections */
+/* Dropdown menu styling for mobile displays or nested tracks */
 .dropdown-menu {
   background-color: #2C1A11 !important;
   border: 1px solid #895129 !important;
@@ -40,5 +65,66 @@
 
 .dropdown-item {
   color: #F9F6F0 !important;
+}
+
+.dropdown-item:hover {
+  background-color: #895129 !important;
+  color: #F9F6F0 !important;
+}
+
+/* ==========================================================================
+   3. INLINE LINKS & BUTTON ACCENTS
+   ========================================================================== */
+
+/* Hyperlinks inside your main website content */
+.page-columns a, 
+.about-links a {
+  color: #895129 !important;            /* Toasted Husk accent color */
+  text-decoration: underline;
+  text-decoration-color: rgba(137, 81, 41, 0.3);
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+/* Inline Page Links Hover Effect */
+.page-columns a:hover, 
+.about-links a:hover {
+  color: #2C1A11 !important;            /* Darkens to heavy brown on hover */
+  text-decoration-color: #2C1A11;
+}
+
+/* ==========================================================================
+   4. PORTRAIT IMAGE CONTAINER RING
+   ========================================================================== */
+
+/* Targets your primary landing page portrait photo */
+.about-image, 
+img[src*="avatar"], 
+img[src*="profile"],
+.quarto-about-solana .about-entity img {
+  border: 4px solid #F9F6F0 !important;   /* Clean Coconut Milk inner ring */
+  outline: 2px solid #895129 !important;  /* Toasted Husk outer accent line */
+  box-shadow: 0 10px 25px rgba(44, 26, 17, 0.12) !important; /* Organic warm shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Smooth interactive lifting animation on hover */
+.about-image:hover, 
+img[src*="avatar"]:hover, 
+img[src*="profile"]:hover,
+.quarto-about-solana .about-entity img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(44, 26, 17, 0.22) !important;
+}
+
+/* ==========================================================================
+   5. FOOTER CLOSURE
+   ========================================================================== */
+footer {
+  margin-top: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid rgba(137, 81, 41, 0.15);
+  color: #6E6560 !important;            /* Soft faded coco husk tone for meta info */
+  font-size: 0.9em;
 }
 
