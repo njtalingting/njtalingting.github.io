@@ -1,3 +1,7 @@
+/* ==========================================================================
+   THEME: Archipelagic Life (Roasted Coconut & Warm Sand)
+   ========================================================================== */
+
 /* 1. GLOBAL TEXT & CONTENT STYLING */
 body {
   background-color: #FCFAF7 !important; /* Soft, warm sand background instead of stark white */
@@ -18,6 +22,13 @@ h1, h2, h3, h4, h5, h6 {
 p {
   line-height: 1.7;
   letter-spacing: 0.1px;
+}
+
+/* Warm Sunset Highlight for Important Keywords (triggers when using **bold** markers) */
+strong, b {
+  color: #2C1A11 !important;
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, rgba(217, 107, 67, 0.12) 35%); /* Subtle warm terracotta underline glow */
+  padding: 0 2px;
 }
 
 /* ==========================================================================
@@ -57,6 +68,11 @@ p {
   color: #F9F6F0 !important;
 }
 
+/* Dark/Light mode theme toggle icon color adjustment */
+.quarto-color-scheme-toggle .bi {
+  color: #F9F6F0 !important;
+}
+
 /* Dropdown menu styling for mobile displays or nested tracks */
 .dropdown-menu {
   background-color: #2C1A11 !important;
@@ -76,9 +92,9 @@ p {
    3. INLINE LINKS & BUTTON ACCENTS
    ========================================================================== */
 
-/* Hyperlinks inside your main website content */
-.page-columns a, 
-.about-links a {
+/* Hyperlinks inside your main website content paragraphs */
+.page-columns p a, 
+.about-contents a:not(.btn) {
   color: #895129 !important;            /* Toasted Husk accent color */
   text-decoration: underline;
   text-decoration-color: rgba(137, 81, 41, 0.3);
@@ -86,10 +102,35 @@ p {
 }
 
 /* Inline Page Links Hover Effect */
-.page-columns a:hover, 
-.about-links a:hover {
+.page-columns p a:hover, 
+.about-contents a:hover:not(.btn) {
   color: #2C1A11 !important;            /* Darkens to heavy brown on hover */
   text-decoration-color: #2C1A11;
+}
+
+/* Island Pebble-Shaped Action Badges (for social/about links) */
+.about-links .btn,
+.about-links a.btn {
+  background-color: #F4EFEA !important; /* Soft bleached sand */
+  color: #2C1A11 !important;            /* Roasted coconut text */
+  border: 1px solid #895129 !important; /* Toasted husk border */
+  border-radius: 30px !important;       /* Smooth pebble shape */
+  padding: 0.5rem 1.4rem !important;
+  font-family: 'Figtree', sans-serif !important;
+  font-weight: 500;
+  text-decoration: none !important;
+  box-shadow: 0 2px 5px rgba(44, 26, 17, 0.05) !important;
+  transition: all 0.2s ease !important;
+}
+
+/* Pebble Badges Hover Effect */
+.about-links .btn:hover,
+.about-links a.btn:hover {
+  background-color: #895129 !important; /* Fills with toasted brown */
+  color: #F9F6F0 !important;            /* Text turns to white coconut milk */
+  border-color: #895129 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 12px rgba(44, 26, 17, 0.15) !important;
 }
 
 /* ==========================================================================
@@ -127,4 +168,3 @@ footer {
   color: #6E6560 !important;            /* Soft faded coco husk tone for meta info */
   font-size: 0.9em;
 }
-
