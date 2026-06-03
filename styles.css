@@ -28,9 +28,6 @@ strong, b {
   padding: 0 2px;
 }
 
-/* ==========================================================================
-   2. HEADER NAVIGATION BAR
-   ========================================================================== */
 
 /* Main Header Container */
 .navbar {
@@ -85,10 +82,6 @@ strong, b {
   color: #F9F6F0 !important;
 }
 
-/* ==========================================================================
-   3. INLINE LINKS & BUTTON ACCENTS
-   ========================================================================== */
-
 /* Hyperlinks inside your main website content paragraphs */
 .page-columns p a, 
 .about-contents a:not(.btn) {
@@ -129,10 +122,6 @@ strong, b {
   transform: translateY(-2px);
   box-shadow: 0 5px 12px rgba(44, 26, 17, 0.15) !important;
 }
-
-/* ==========================================================================
-   4. PORTRAIT IMAGE CONTAINER RING
-   ========================================================================== */
 
 /* Targets your primary landing page portrait photo */
 .about-image, 
@@ -250,3 +239,8 @@ footer {
   margin: 0 !important;
 }
 
+ /* FIX THE OVERFLOW FORCING EFFECT: */
+  overflow-wrap: break-word !important;
+  word-wrap: break-word !important;
+  word-break: break-word !important;
+}
