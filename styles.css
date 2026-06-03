@@ -35,7 +35,7 @@ strong, b {
 /* Main Header Container */
 .navbar {
   background-color: #2C1A11 !important; /* Rich Dark Coconut Shell Brown */
-  border-bottom: 3px solid #895129 !important; /* Toasted Husk accent line */
+  border-bottom: 3px solid #E76F51 !important; /* Toasted Husk accent line */
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
@@ -110,7 +110,7 @@ strong, b {
 .about-links a.btn {
   background-color: #F4EFEA !important; /* Soft bleached sand */
   color: #2C1A11 !important;            /* Roasted coconut text */
-  border: 1px solid #895129 !important; /* Toasted husk border */
+  border: 1px solid #E76F51 !important; /* Toasted husk border */
   border-radius: 30px !important;       /* Smooth pebble shape */
   padding: 0.5rem 1.4rem !important;
   font-family: 'Figtree', sans-serif !important;
@@ -123,7 +123,7 @@ strong, b {
 /* Pebble Badges Hover Effect */
 .about-links .btn:hover,
 .about-links a.btn:hover {
-  background-color: #895129 !important; /* Fills with toasted brown */
+  background-color: #E76F51 !important; /* Fills with toasted brown */
   color: #F9F6F0 !important;            /* Text turns to white coconut milk */
   border-color: #895129 !important;
   transform: translateY(-2px);
