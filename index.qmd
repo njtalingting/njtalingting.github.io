@@ -21,7 +21,7 @@ about:
       href: "mailto:ninotalingting77@gmail.com"
 ---
 
-Hello, world! I develop open-source tools that fix the bias where spatial tools treat the ocean as an empty void than a medium of connectivity in archipelagos.
+Hello, world! I develop open-source packages that fix the bias where spatial tools treat the ocean as an empty void than a medium of connectivity when applied to archipelagos.
 
 My years in public office and studies of statistics near the Cebu Port Authority has deeply grounded my work so that they meet the reality of archipelagic life.
 
