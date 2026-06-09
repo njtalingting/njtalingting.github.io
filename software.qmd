@@ -1,9 +1,8 @@
 ---
 title: "Open-Source Software"
-subtitle: "These are my open-source packages, indexed under the [PinasR](https://pinasr.r-universe.dev/builds) repository that I also maintain."
 ---
 
-My software were not really designed to teach you something new, but to give it a lens to see your reality. Thus if you cannot easily relate to the outputs while using my tools, it's a failure of my software, not your intelligence.
+**These are my open-source packages, indexed under the [PinasR](https://pinasr.r-universe.dev/builds) repository that I also maintain.** My software were not really designed to teach you something new, but to give it a lens to see your reality. Thus if you cannot easily relate to the outputs while using my tools, it's a failure of my software, not your intelligence. I'd be so glad if we could update these tools together by submitting an issue to their respective repositories.
 
 ::: {.software-grid}
 
