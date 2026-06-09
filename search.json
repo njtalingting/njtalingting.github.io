@@ -4,7 +4,7 @@
     "href": "software.html",
     "title": "Open-Source Software",
     "section": "",
-    "text": "My software were not really designed to teach you something new, but to give it a lens to see your reality. Thus if you cannot easily relate to the outputs while using my tools, it’s a failure of my software, not your intelligence.\n\n\n\n\n\n\nArchipelagoEngine\nConstructs a Spatial Weight Matrix (listw) for Spatial Autoregressive (SAR) model in Island Geographies\n\nView on GitHub View on CRAN\n\n\n\n\n\n\n\n\nroroph\nTransforms the Philippine Nautical Highway System into a Network Graph\n\nView on GitHub View on CRAN\n\n\n\n\n\n\n\n\npalettephines\nMakes spatial map intuitive to the locals\n\nView on GitHub View on CRAN"
+    "text": "These are my open-source packages, indexed under the PinasR repository that I also maintain. My software were not really designed to teach you something new, but to give it a lens to see your reality. Thus if you cannot easily relate to the outputs while using my tools, it’s a failure of my software, not your intelligence. I’d be so glad if we could update these tools together by submitting an issue to their respective repositories.\n\n\n\n\n\n\nArchipelagoEngine\nConstructs a Spatial Weight Matrix (listw) for Spatial Autoregressive (SAR) model in Island Geographies\n\nView on GitHub View on CRAN\n\n\n\n\n\n\n\n\nroroph\nTransforms the Philippine Nautical Highway System into a Network Graph\n\nView on GitHub View on CRAN\n\n\n\n\n\n\n\n\npalettephines\nMakes spatial map intuitive to the locals\n\nView on GitHub View on CRAN"
   },
   {
     "objectID": "recognition.html",
