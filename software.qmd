@@ -2,7 +2,9 @@
 title: "Open-Source Software"
 ---
 
-**These are my open-source packages, indexed under the [PinasR](https://pinasr.r-universe.dev/builds) repository that I also maintain.** My software were not really designed to teach you something new, but to give it a lens to see your reality. Thus if you cannot easily relate to the outputs while using my tools, it's a failure of my software, not your intelligence. I'd be so glad if we could update these tools together by submitting an issue to their respective repositories.
+**These are my open-source packages, indexed under the [PinasR](https://pinasr.r-universe.dev/builds) repository that I also maintain.** While the math behind these tools is highly technical, the final results shouldn't be. 
+
+My software is designed to give you a clear lens to see your own reality. **If you look at the final maps or graphs and they do not make intuitive sense to your lived experience, that is a failure of my software—not your intelligence.** I would be so glad if we could update these tools together by submitting an issue to their repositories.
 
 ::: {.software-grid}
 
