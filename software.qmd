@@ -1,7 +1,9 @@
 ---
 title: "Open-Source Software"
-subtitle: "These are the open-source packages I've built throughout the years, indexed under the [PinasR](https://pinasr.r-universe.dev/builds) repository that I also maintain."
+subtitle: "These are my open-source packages, indexed under the [PinasR](https://pinasr.r-universe.dev/builds) repository that I also maintain."
 ---
+
+My software were not really designed to teach you something new, but to give it a lens to see your reality. Thus if you cannot easily relate to the outputs while using my tools, it's a failure of my software, not your intelligence.
 
 ::: {.software-grid}
 
@@ -12,7 +14,7 @@ subtitle: "These are the open-source packages I've built throughout the years, i
 
 ::: {.software-info}
 ### ArchipelagoEngine
-Constructs a Spatial Weight Matrix (listw) for Spatial Autoregressive (SAR) model in Noncontiguous Geographies
+Constructs a Spatial Weight Matrix (listw) for Spatial Autoregressive (SAR) model in Island Geographies
 
 <div class="software-links">
 [View on GitHub](https://github.com/pinasr/ArchipelagoEngine){.btn .software-btn target="_blank"}
@@ -28,7 +30,7 @@ Constructs a Spatial Weight Matrix (listw) for Spatial Autoregressive (SAR) mode
 
 ::: {.software-info}
 ### roroph
-Transforms the Philippine Nautical Highway System into Network Graph for Statistical Modeling
+Transforms the Philippine Nautical Highway System into a Network Graph
 
 <div class="software-links">
 [View on GitHub](https://github.com/pinasr/roroph){.btn .software-btn target="_blank"}
@@ -44,7 +46,7 @@ Transforms the Philippine Nautical Highway System into Network Graph for Statist
 
 ::: {.software-info}
 ### palettephines
-Grounds Spatial Visualization with Plant Phenology (BBCH-scale) and Marine Health (Reef Health Index)
+Makes spatial map intuitive to the locals
 
 <div class="software-links">
 [View on GitHub](https://github.com/pinasr/palettephines){.btn .software-btn target="_blank"}
