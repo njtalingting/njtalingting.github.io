@@ -2,7 +2,7 @@
 title: "Open-Source Software"
 ---
 
-My software is built to give you a clear lens to see your world, so **if the final visuals don't make intuitive sense to your lived experience, that is a failure of my code— not your intelligence.** If something looks wrong, let's team up, submit an issue to the repository, and fix the lens together.
+My software is built as a lens to see your world, so **if the final visuals don't make intuitive sense to your lived experience, that is a failure of my code— not your intelligence.** If something looks wrong, let's team up, submit an issue to the repository, and fix the lens together.
 
 ::: {.software-grid}
 
