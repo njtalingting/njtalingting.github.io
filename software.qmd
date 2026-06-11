@@ -4,8 +4,6 @@ title: "Open-Source Software"
 
 My open-source R packages are meant to dismantle what I call the ["Continental Fallacy"](https://pinasr.r-universe.dev/articles/ArchipelagoEngine/rtl_impact.html) in Spatial Data Science - the systemic bias in global software where the sea is treated as an empty void than a medium of connectivity which **erases archipelagic life.**
 
-My years of exposure at the grassroots as a Sangguniang Kabataan Oficial to monitoring these spacaes as a Statistics intern at the Department of the Interior and Local Government (DILG) influenced my tools to be understandable to the locals. Thus if you cannot understand the visuals of my tools, please know it's a failure of my code, not your intelligence - please submit an issue so we can update them together!
-
 ::: {.software-grid}
 
 ::: {.software-card}
