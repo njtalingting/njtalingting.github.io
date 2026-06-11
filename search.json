@@ -1,17 +1,17 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "NJ Talingting",
-    "section": "",
-    "text": "Hello, world! I develop open-source packages that fix the bias where spatial tools treat the ocean as an empty void than a medium of connectivity when applied to archipelagos.\nMy years in public office and studies of statistics near the Cebu Port Authority has deeply grounded my work so that they meet the reality of archipelagic life.\nOutside work, I’ve founded PinasR, a centralized repository for R packages made by Filipinos. You may find my core spatial tools at CRAN."
-  },
-  {
     "objectID": "software.html",
     "href": "software.html",
     "title": "Open-Source Software",
     "section": "",
-    "text": "My R packages! My open-source tools are meant to dismantle what I call the “Continental Fallacy” in Spatial Data Science - the systemic bias in global software where the sea is treated as an empty void than a medium of connectivity which erases archipelagic life.\nMy years of exposure dealing directly with community problems at the grassroots level to monitoring these spaces have influenced my tools to be easily understandable to the locals. Thus if you cannot understand the visuals of my tools, please know it’s a failure of my code, not your intelligence - please submit an issue so we can update the lens together!\n\n\n\n\n\n\nArchipelagoEngine\nConstructs a Spatial Weight Matrix (listw) for Spatial Autoregressive (SAR) model in Island Geographies\n\nView on GitHub View on CRAN\n\n\n\n\n\n\n\n\nroroph\nTransforms the Philippine Nautical Highway System into a Network Graph\n\nView on GitHub View on CRAN\n\n\n\n\n\n\n\n\npalettephines\nMakes spatial map intuitive to the locals\n\nView on GitHub View on CRAN"
+    "text": "My open-source R packages are meant to dismantle what I call the “Continental Fallacy” in Spatial Data Science - the systemic bias in global software where the sea is treated as an empty void than a medium of connectivity which erases archipelagic life.\nMy years of exposure at the grassroots as a Sangguniang Kabataan Oficial to monitoring these spacaes as a Statistics intern at the Department of the Interior and Local Government (DILG) influenced my tools to be understandable to the locals. Thus if you cannot understand the visuals of my tools, please know it’s a failure of my code, not your intelligence - please submit an issue so we can update them together!\n\n\n\n\n\n\nArchipelagoEngine\nConstructs a Spatial Weight Matrix (listw) for Spatial Autoregressive (SAR) model in Island Geographies\n\nView on GitHub View on CRAN\n\n\n\n\n\n\n\n\nroroph\nTransforms the Philippine Nautical Highway System into a Network Graph\n\nView on GitHub View on CRAN\n\n\n\n\n\n\n\n\npalettephines\nMakes spatial map intuitive to the locals\n\nView on GitHub View on CRAN"
+  },
+  {
+    "objectID": "recognition.html",
+    "href": "recognition.html",
+    "title": "Recognition",
+    "section": "",
+    "text": "Tunay na Iskolar ng Bayan Scholarship Recipient (2020) I’ve received a fully-funded scholarship to study at an international school in Cebu that offers IGCSE/A-levels.\n\n\n \n\n\n\nFigure 1: CIE British School and Rotary Club scholarship feature presentation."
   },
   {
     "objectID": "resources.html",
@@ -42,10 +42,10 @@
     "text": "Transforming R Functions into Package\n\n\n\nIf you have other questions about my experience navigating college life as a Statistics student, submitting to CRAN, making and maintaining your first package in the Global South, and anything we share in common, feel free to email me at ninotalingting77@gmail.com. Don’t forget to test your assumptions and map your residuals!"
   },
   {
-    "objectID": "recognition.html",
-    "href": "recognition.html",
-    "title": "Recognition",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NJ Talingting",
     "section": "",
-    "text": "Tunay na Iskolar ng Bayan Scholarship Recipient (2020) I’ve received a fully-funded scholarship to study at an international school in Cebu that offers IGCSE/A-levels.\n\n\n \n\n\n\nFigure 1: CIE British School and Rotary Club scholarship feature presentation."
+    "text": "Hello, world! I develop open-source packages that fix the bias where spatial tools treat the ocean as an empty void than a medium of connectivity when applied to archipelagos.\nMy years in public office and studies of statistics near the Cebu Port Authority has deeply grounded my work so that they meet the reality of archipelagic life.\nOutside work, I’ve founded PinasR, a centralized repository for R packages made by Filipinos. You may find my core spatial tools at CRAN."
   }
 ]
