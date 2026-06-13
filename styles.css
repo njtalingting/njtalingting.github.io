@@ -58,7 +58,7 @@ strong, b {
     
     /* 1. APPLIES PHOTO BACKGROUND AND TINT OVERLAY TO ALL CONTAINERS CLEARLY */
     background-image: linear-gradient(rgba(11, 29, 40, 0.65), rgba(11, 29, 40, 0.65)), 
-                      url('images/sidebar-bg.jpg') !important;
+                      url('images/sidebar-bg.png') !important;
     background-size: cover !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
