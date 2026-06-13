@@ -1,29 +1,11 @@
 ---
-title: "NJ Talingting"
-about:
-  template: jolla
-  image: images/nj_talingting_developer.jpg 
-  image-width: 13em  
-  links:
-    - icon: github
-      text: GitHub
-      href: https://github.com/njtalingting
-    - icon: linkedin
-      text: Linkedin
-      href: https://www.linkedin.com/in/njtalingting
-    - icon: mortarboard
-      text: ORCID
-      href: https://orcid.org/my-orcid?orcid=0009-0003-7245-874X
-    - icon: box-seam
-      text: R-Universe
-      href: https://njtalingting.r-universe.dev
-    - icon: envelope
-      text: Contact
-      href: "mailto:ninotalingting77@gmail.com"
+title: ""
 ---
 
-Hello, world! I develop open-source packages that fix the bias where spatial tools treat the ocean as an empty void than a **medium of connectivity** when applied to archipelagos.
+# NJ Talingting
 
-My years in public office and studies of statistics near the Cebu Port Authority has deeply grounded my work so that they meet the **reality of archipelagic life.**
+Hello, world! I'm currently working as a Statistics intern at the Department of the Interior and Local Government (DILG) and a maintainer of several spatial R packages published on the Comprehensive R Archive Network (CRAN).
 
-Outside work, I've founded [PinasR](https://pinasr.r-universe.dev/packages), a centralized repository for R packages made by Filipinos. You may find my core spatial tools at [CRAN.](https://www.r-pkg.org/maint/ninotalingting77@gmail.com)
+My years in public office and studies of statistics near the Cebu Port Authority has deeply grounded my work so that they meet the **reality of archipelagic life**.
+
+Outside work, I've founded [PinasR](https://pinasr.r-universe.dev/packages), a centralized repository for R packages made by Filipinos. You may find my core spatial tools at [CRAN](https://r-project.org).
