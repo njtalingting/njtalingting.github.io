@@ -7,12 +7,11 @@ body,
 .page-columns, 
 #quarto-content, 
 .about-entity {
-  background-color: #FBF8F3 !important; /* Forces Cosmo panels to soft warm sand */
-  color: #12232E !important;            /* Abyssal Blue for crisp contrast and readability */
+  background-color: #FBF8F3 !important; /* Soft warm sand */
+  color: #12232E !important;            /* Abyssal Blue for crisp contrast */
   font-family: 'Figtree', sans-serif !important;
 }
 
-/* Page Titles and Section Headings */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif !important;
   color: #0B1D28 !important;            /* Deep Midnight Ocean Blue */
@@ -26,7 +25,6 @@ p {
   letter-spacing: 0.1px;
 }
 
-/* Marine Bioluminescent Highlight */
 strong, b {
   color: #0B1D28 !important;
   background: linear-gradient(180deg, rgba(255,255,255,0) 65%, rgba(46, 196, 182, 0.18) 35%); 
@@ -34,10 +32,12 @@ strong, b {
 }
 
 /* ==========================================================================
-   2. EXPANDED SIDEBAR NAVIGATION (Full-Bleed Image Background Profile)
+   2. EXPANDED SIDEBAR NAVIGATION (Hugo Personal Web Clone)
    ========================================================================== */
+
+/* --- DESKTOP VIEW (Screens 992px and wider) --- */
 @media (min-width: 992px) {
-  /* Targets every conceivable container block inside Quarto's structure */
+  /* Set full-bleed background photo panel */
   #quarto-sidebar,
   .sidebar,
   .sidebar-navigation,
@@ -45,8 +45,7 @@ strong, b {
   #quarto-sidebar-sidebar,
   #quarto-sidebar-sidebar-panel,
   #quarto-sidebar-sidebar nav,
-  .sidebar-nav,
-  .sidebar-content {
+  .sidebar-nav {
     width: 340px !important;
     min-height: 100vh !important;
     position: fixed !important;
@@ -56,22 +55,16 @@ strong, b {
     margin: 0 !important;
     padding: 3.5rem 2rem !important;
     
-    /* 1. APPLIES PHOTO BACKGROUND AND TINT OVERLAY TO ALL CONTAINERS CLEARLY */
+    /* Applies photo background and tint overlay across all layers */
     background-image: linear-gradient(rgba(11, 29, 40, 0.65), rgba(11, 29, 40, 0.65)), 
                       url('images/sidebar-bg.png') !important;
     background-size: cover !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
-    
     border-right: 3px solid #1CA3A7 !important;
     z-index: 1000;
-  }
-
-  /* Structural side display flex alignment rule reset handles list stacking */
-  #quarto-sidebar {
     display: flex !important;
     flex-direction: column !important;
-    overflow-y: auto !important;
   }
 
   /* Shifts content canvas outward so it doesn't clip underneath the sidebar */
@@ -80,144 +73,125 @@ strong, b {
     margin-left: 340px !important;
     padding-left: 2rem !important;
   }
+
+  /* FORCE TRANSPARENCY RESET: Erases the stubborn gray backgrounds */
+  #quarto-sidebar *,
+  #quarto-sidebar-sidebar *,
+  .sidebar-navigation *,
+  .sidebar-menu-container,
+  .sidebar-menu-container * {
+    background: transparent !important;
+    background-color: transparent !important;
+  }
+
+  /* FORCE TEXT LINKS TO BE BOLD STARK WHITE */
+  #quarto-sidebar .sidebar-item a,
+  #quarto-sidebar .sidebar-item span,
+  #quarto-sidebar .sidebar-link,
+  #quarto-sidebar .sidebar-link span,
+  #quarto-sidebar .menu-text,
+  #quarto-sidebar .sidebar-item-text,
+  #quarto-sidebar nav a,
+  #quarto-sidebar-sidebar a,
+  #quarto-sidebar-sidebar span,
+  .nav-link,
+  .nav-link span,
+  a.nav-link.active,
+  a.nav-link.active span {
+    font-family: 'Playfair Display', serif !important;
+    color: #FFFFFF !important; /* Pure template white */
+    font-size: 1.4rem !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+  }
+
+  /* Format individual menu container lists with clean dividers */
+  #quarto-sidebar .sidebar-item,
+  #quarto-sidebar li {
+    width: 100% !important;
+    display: block !important;
+    padding: 0.6rem 0 !important;
+    border-bottom: 2px dotted rgba(255, 255, 255, 0.3) !important;
+  }
+
+  /* Active page states and hover micro-interactions */
+  #quarto-sidebar .sidebar-item a:hover,
+  #quarto-sidebar .sidebar-item a:hover span,
+  #quarto-sidebar .sidebar-link:hover,
+  #quarto-sidebar .sidebar-link:hover span,
+  #quarto-sidebar .sidebar-link.active,
+  #quarto-sidebar .sidebar-link.active span,
+  .nav-link:hover,
+  .nav-link:hover span {
+    color: #2EC4B6 !important; /* Vibrant signature teal */
+  }
+
+  /* Clean up: Hide default search blocks completely on desktop */
+  #quarto-sidebar .sidebar-search,
+  .sidebar-item-search {
+    display: none !important;
+  }
 }
 
-/* 2. FORCE TRANSPARENCY RESET: Erases the gray/blue background colors */
-#quarto-sidebar *,
-#quarto-sidebar-sidebar *,
-.sidebar-navigation *,
-.sidebar-menu-container,
-.sidebar-menu-container * {
-  background: transparent !important;
-  background-color: transparent !important;
-}
-
-/* Hites gray search mechanics out of structural frames completely */
-#quarto-sidebar .sidebar-search,
-#quarto-sidebar-sidebar .sidebar-search,
-.sidebar-item-search,
-div.sidebar-item-search {
-  display: none !important;
-}
-
-/* Sidebar Title Layout Formatting (Forces crisp white on top of photo) */
-#quarto-sidebar .sidebar-title,
-#quarto-sidebar .sidebar-title a,
-#quarto-sidebar-sidebar .sidebar-title a {
-  font-family: 'Playfair Display', serif !important;
-  font-size: 2.2rem !important; 
-  font-weight: 700 !important;
-  color: #F7F5F0 !important;
-  letter-spacing: 0.5px !important;
-  margin-bottom: 0.5rem !important;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
-}
-
-/* Sidebar Description Tagline Custom Formatting */
-.sidebar-description,
-#quarto-sidebar p {
-  font-family: 'Figtree', sans-serif !important;
-  font-size: 1.1rem !important;
-  color: #F7F5F0 !important;
-  line-height: 1.4 !important;
-  margin-top: 0.5rem !important;
-  margin-bottom: 2rem !important;
-  opacity: 0.95;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
-}
-
-/* Sidebar Navigation Links (Enlarged White Subheaders) */
-#quarto-sidebar .sidebar-menu-container .nav-link,
-#quarto-sidebar .sidebar-menu-container .nav-link span,
-#quarto-sidebar .sidebar-menu-container a.nav-link.active,
-#quarto-sidebar .sidebar-menu-container a.nav-link.active span,
-#quarto-sidebar .sidebar-menu-text,
-#quarto-sidebar-sidebar .nav-link span,
-.sidebar-menu-container .sidebar-menu-text {
-  font-family: 'Playfair Display', serif !important; 
-  color: #FFFFFF !important;                        /* Forces stark white on normal and active links */
-  font-size: 1.4rem !important;                     
-  font-weight: 600 !important;                      
-  padding: 0.6rem 0 !important;                     
-  text-decoration: none !important;
-  border-bottom: 2px dotted rgba(255, 255, 255, 0.3) !important; 
-  width: 100% !important;                           
-  display: inline-block !important;
-  transition: all 0.2s ease-in-out;
-  background: transparent !important;               /* Removes any active background gray pill highlight */
-  background-color: transparent !important;
-}
-
-/* Active Nav Link Glow Actions on Hover */
-#quarto-sidebar .sidebar-menu-container .nav-link:hover,
-#quarto-sidebar .sidebar-menu-container .nav-link:hover span,
-#quarto-sidebar .sidebar-menu-container a.nav-link.active:hover,
-#quarto-sidebar .sidebar-menu-container a.nav-link.active:hover span {
-  color: #2EC4B6 !important;                        /* Glows to teal on hover */
-  border-bottom-color: #2EC4B6 !important;          
-  padding-left: 6px !important;                     
-}
-
-/* Active Nav Link Glow Actions */
-#quarto-sidebar .sidebar-menu-container .nav-link:hover span,
-#quarto-sidebar .sidebar-menu-container .nav-link:hover,
-#quarto-sidebar-sidebar .nav-link:hover span {
-  color: #2EC4B6 !important;                        /* Sharp Reef Cyan layout color switch on hover */
-  border-bottom-color: #2EC4B6 !important;          /* Underline glows teal along with text */
-  padding-left: 6px !important;                     /* Smooth micro-interaction indent pull */
-}
-
-/* Horizontal Social Media Tools Grid Alignment */
-#quarto-sidebar .sidebar-tools-main {
-  margin-top: 2rem !important;
-  display: flex !important;
-  gap: 16px !important;
-}
-
-#quarto-sidebar .sidebar-tools-main a,
-#quarto-sidebar .sidebar-tools-main a i,
-#quarto-sidebar .sidebar-tools-main .sidebar-tool-item {
-  color: #ffffff !important;
-  font-size: 1.5rem !important; /* Enlarged icons for clarity */
-  opacity: 0.95 !important;
-  transition: transform 0.2s ease, color 0.2s ease;
-}
-
-#quarto-sidebar .sidebar-tools-main a:hover {
-  color: #2EC4B6 !important;
-  transform: scale(1.1);
-}
-
-/* Mobile Responsive Scale Adjustments */
+/* --- MOBILE & TABLET FALLBACK VIEW --- */
 @media (max-width: 991.98px) {
   #quarto-sidebar,
-  .sidebar.sidebar-navigation.docked,
   #quarto-sidebar-sidebar {
     width: 100% !important;
     min-height: auto !important;
     position: relative !important;
     border-right: none !important;
     border-bottom: 3px solid #1CA3A7 !important;
-    padding: 2rem 1.5rem !important;
-    background-image: linear-gradient(rgba(11, 29, 40, 0.85), rgba(11, 29, 40, 0.85)), 
-                      url('images/sidebar-bg.jpg') !important;
+    padding: 1.5rem !important;
+    background-color: #0B1D28 !important; /* Fallback midnight background */
+    background-image: none !important;
   }
+
   #quarto-content,
   .page-columns {
     margin-left: 0 !important;
     padding-left: 0 !important;
   }
 
-/* Erases the gray structural background box from the bottom navigation links wrapper */
-#quarto-sidebar nav,
-.sidebar-nav,
-.sidebar-menu-container,
-#quarto-sidebar .sidebar-menu-container,
-div#quarto-sidebar-sidebar-panel,
-.nav-item {
-  background: transparent !important;
-  background-color: transparent !important;
-  box-shadow: none !important;
+  /* Keeps native mobile drawer text visible */
+  .navbar-toggler, 
+  .sidebar-toggle,
+  .sidebar-title {
+    color: #F7F5F0 !important;
+  }
+}
+
+/* --- GLOBAL SIDEBAR OVERLAYS (Safe for both layouts) --- */
+.sidebar-title,
+.sidebar-title a {
+  font-family: 'Playfair Display', serif !important;
+  font-size: 2.2rem !important;
+  font-weight: 700 !important;
+  color: #F7F5F0 !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.sidebar-description {
+  font-family: 'Figtree', sans-serif !important;
+  font-size: 1.1rem !important;
+  color: #F7F5F0 !important;
+  line-height: 1.4 !important;
+  margin-top: 0.5rem !important;
+  margin-bottom: 2rem !important;
+  opacity: 0.90;
+}
+
+#quarto-sidebar .sidebar-tools-main {
+  margin-top: 1.5rem !important;
+  display: flex !important;
+  gap: 16px !important;
+}
+
+#quarto-sidebar .sidebar-tools-main a,
+#quarto-sidebar .sidebar-tools-main i {
+  color: #ffffff !important;
+  font-size: 1.5rem !important;
 }
 
 /* ==========================================================================
@@ -237,7 +211,6 @@ div#quarto-sidebar-sidebar-panel,
   text-decoration-color: #0B1D28;
 }
 
-/* Coastal Pebble-Shaped Buttons */
 .about-links .btn,
 .about-links a.btn {
   background-color: #F4ECE1 !important; 
@@ -263,7 +236,7 @@ div#quarto-sidebar-sidebar-panel,
 
 /* ==========================================================================
    4. PORTRAIT HERO IMAGE (Perfect Uniform Framing)
-   ========================================================================== */
+   ========================================================================= */
 .about-image, 
 img[src*="avatar"], 
 img[src*="profile"],
