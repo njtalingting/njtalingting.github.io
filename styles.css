@@ -202,6 +202,17 @@ div.sidebar-item-search {
     margin-left: 0 !important;
     padding-left: 0 !important;
   }
+
+/* Erases the gray structural background box from the bottom navigation links wrapper */
+#quarto-sidebar nav,
+.sidebar-nav,
+.sidebar-menu-container,
+#quarto-sidebar .sidebar-menu-container,
+div#quarto-sidebar-sidebar-panel,
+.nav-item {
+  background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
 }
 
 /* ==========================================================================
