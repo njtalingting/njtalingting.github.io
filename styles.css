@@ -37,11 +37,16 @@ strong, b {
    2. EXPANDED SIDEBAR NAVIGATION (Full-Bleed Image Background Profile)
    ========================================================================== */
 @media (min-width: 992px) {
-  /* Apply the photo background directly to Quarto's structural wrappers */
+  /* Targets every conceivable container block inside Quarto's structure */
   #quarto-sidebar,
-  .sidebar.sidebar-navigation.docked,
+  .sidebar,
+  .sidebar-navigation,
+  .sidebar-navigation.docked,
   #quarto-sidebar-sidebar,
-  #quarto-sidebar-sidebar-panel {
+  #quarto-sidebar-sidebar-panel,
+  #quarto-sidebar-sidebar nav,
+  .sidebar-nav,
+  .sidebar-content {
     width: 340px !important;
     min-height: 100vh !important;
     position: fixed !important;
@@ -51,7 +56,7 @@ strong, b {
     margin: 0 !important;
     padding: 3.5rem 2rem !important;
     
-    /* Forces the background photo with an active 65% dark tint layer overlay */
+    /* 1. APPLIES PHOTO BACKGROUND AND TINT OVERLAY TO ALL CONTAINERS CLEARLY */
     background-image: linear-gradient(rgba(11, 29, 40, 0.65), rgba(11, 29, 40, 0.65)), 
                       url('images/sidebar-bg.jpg') !important;
     background-size: cover !important;
@@ -59,10 +64,14 @@ strong, b {
     background-repeat: no-repeat !important;
     
     border-right: 3px solid #1CA3A7 !important;
-    overflow-y: auto;
     z-index: 1000;
-    display: flex;
-    flex-direction: column;
+  }
+
+  /* Structural side display flex alignment rule reset handles list stacking */
+  #quarto-sidebar {
+    display: flex !important;
+    flex-direction: column !important;
+    overflow-y: auto !important;
   }
 
   /* Shifts content canvas outward so it doesn't clip underneath the sidebar */
@@ -73,17 +82,21 @@ strong, b {
   }
 }
 
-/* Strips Quarto's default solid blue layer background container skin blocks entirely */
-.sidebar.sidebar-navigation.docked,
-#quarto-sidebar-sidebar {
+/* 2. FORCE TRANSPARENCY RESET: Erases the gray/blue background colors */
+#quarto-sidebar *,
+#quarto-sidebar-sidebar *,
+.sidebar-navigation *,
+.sidebar-menu-container,
+.sidebar-menu-container * {
   background: transparent !important;
   background-color: transparent !important;
 }
 
-/* Hides the gray search box wrapper elements completely to mimic the reference image */
+/* Hites gray search mechanics out of structural frames completely */
 #quarto-sidebar .sidebar-search,
 #quarto-sidebar-sidebar .sidebar-search,
-.sidebar-item-search {
+.sidebar-item-search,
+div.sidebar-item-search {
   display: none !important;
 }
 
@@ -117,15 +130,17 @@ strong, b {
 #quarto-sidebar .sidebar-menu-container .nav-link,
 #quarto-sidebar .sidebar-menu-container .nav-link span,
 #quarto-sidebar .sidebar-menu-text,
-#quarto-sidebar-sidebar .nav-link span {
+#quarto-sidebar-sidebar .nav-link span,
+.sidebar-menu-container .sidebar-menu-text {
   font-family: 'Figtree', sans-serif !important;
   color: #F7F5F0 !important; /* Stark bright sea-spray white */
   font-size: 1.1rem !important;
   font-weight: 500 !important;
   padding: 0.5rem 0 !important;
   text-decoration: none !important;
-  border-bottom: 1px dotted rgba(247, 245, 240, 0.4); /* Replicates Jack's dotted links */
+  border-bottom: 1px dotted rgba(247, 245, 240, 0.4) !important; /* Replicates Jack's dotted links */
   width: fit-content;
+  display: inline-block;
   transition: all 0.2s ease;
 }
 
@@ -145,7 +160,8 @@ strong, b {
 }
 
 #quarto-sidebar .sidebar-tools-main a,
-#quarto-sidebar .sidebar-tools-main a i {
+#quarto-sidebar .sidebar-tools-main a i,
+#quarto-sidebar .sidebar-tools-main .sidebar-tool-item {
   color: #ffffff !important;
   font-size: 1.5rem !important; /* Enlarged icons for clarity */
   opacity: 0.95 !important;
@@ -169,7 +185,7 @@ strong, b {
     border-bottom: 3px solid #1CA3A7 !important;
     padding: 2rem 1.5rem !important;
     background-image: linear-gradient(rgba(11, 29, 40, 0.85), rgba(11, 29, 40, 0.85)), 
-                      url('images/sidebar-bg.png') !important;
+                      url('images/sidebar-bg.jpg') !important;
   }
   #quarto-content,
   .page-columns {
@@ -298,7 +314,7 @@ img[src*="profile"]:hover,
   color: #34444F !important;             
   font-size: 0.9rem !important;
   line-height: 1.5 !important;
-  margin: 0 0 0.8rem 0 !important;
+  margin-bottom: 0.8rem !important;
 }
 
 .software-btn {
@@ -318,3 +334,20 @@ img[src*="profile"]:hover,
   margin: 0 !important;
 }
 
+/* ==========================================================================
+   6. FOOTER CLOSURE & UTILITIES
+   ========================================================================== */
+footer {
+  margin-top: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid rgba(28, 163, 167, 0.15);
+  color: #55646E !important;            
+  font-size: 0.9em;
+}
+
+.software-info, p, h1, h2, h3, .about-contents {
+  overflow-wrap: break-word !important;
+  word-wrap: break-word !important;
+  word-break: break-word !important;
+}
