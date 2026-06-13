@@ -129,29 +129,34 @@ div.sidebar-item-search {
 /* Sidebar Navigation Links (Enlarged White Subheaders) */
 #quarto-sidebar .sidebar-menu-container .nav-link,
 #quarto-sidebar .sidebar-menu-container .nav-link span,
+#quarto-sidebar .sidebar-menu-container a.nav-link.active,
+#quarto-sidebar .sidebar-menu-container a.nav-link.active span,
 #quarto-sidebar .sidebar-menu-text,
 #quarto-sidebar-sidebar .nav-link span,
 .sidebar-menu-container .sidebar-menu-text {
   font-family: 'Playfair Display', serif !important; 
-  color: #FFFFFF !important;                        /* Changes dark blue text to pure white */
+  color: #FFFFFF !important;                        /* Forces stark white on normal and active links */
   font-size: 1.4rem !important;                     
   font-weight: 600 !important;                      
   padding: 0.6rem 0 !important;                     
   text-decoration: none !important;
   border-bottom: 2px dotted rgba(255, 255, 255, 0.3) !important; 
-  width: 100% !important;                           /* Spans across full width of the sidebar */
+  width: 100% !important;                           
   display: inline-block !important;
   transition: all 0.2s ease-in-out;
+  background: transparent !important;               /* Removes any active background gray pill highlight */
+  background-color: transparent !important;
 }
 
-/* Hover effect */
+/* Active Nav Link Glow Actions on Hover */
+#quarto-sidebar .sidebar-menu-container .nav-link:hover,
 #quarto-sidebar .sidebar-menu-container .nav-link:hover span,
-#quarto-sidebar .sidebar-menu-container .nav-link:hover {
+#quarto-sidebar .sidebar-menu-container a.nav-link.active:hover,
+#quarto-sidebar .sidebar-menu-container a.nav-link.active:hover span {
   color: #2EC4B6 !important;                        /* Glows to teal on hover */
   border-bottom-color: #2EC4B6 !important;          
   padding-left: 6px !important;                     
 }
-
 
 /* Active Nav Link Glow Actions */
 #quarto-sidebar .sidebar-menu-container .nav-link:hover span,
