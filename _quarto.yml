@@ -7,11 +7,13 @@ website:
   title: "NJ Talingting"
   description: "Connecting fragmented geographies."
   favicon: images/logo.svg
-  page-footer:
-    left: "© 2026 NJ Talingting"
-  navbar:
+  
+  # 1. Replaced navbar with sidebar configuration
+  sidebar:
+    style: "docked"
+    background: "#1a1a1a"       # Gives you the dark sidebar style from the image
     logo: images/logo.svg
-    left:
+    contents:
       - href: index.qmd
         text: Home
       - href: software.qmd
@@ -21,9 +23,14 @@ website:
       - href: resources.qmd
         text: Resources
 
+  page-footer:
+    left: "© 2026 NJ Talingting"
+
 format:
   html:
-    theme: cosmo
+    theme: 
+      - cosmo
+      - light                   # Keeps the main body area light colored
     css: styles.css
     theme-toggle: true           # Activates the sun/moon button safely
     toc: true
