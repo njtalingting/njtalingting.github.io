@@ -3,10 +3,10 @@ title: ""
 sidebar: true
 ---
 
-# NJ Talingting
+# Hi, my name is NJ Talingting.
 
-Hello, world! I'm currently working as a Statistics intern at the Department of the Interior and Local Government (DILG) and a maintainer of several spatial R packages published on the Comprehensive R Archive Network (CRAN).
+I'm currently working as a Statistics intern at the Department of the Interior and Local Government (DILG) and a maintainer of several spatial R packages published on the Comprehensive R Archive Network (CRAN).
 
-My years in public office and studies of statistics near the Cebu Port Authority has deeply grounded my work so that they meet the **reality of archipelagic life**.
+My years in public office as a Sangguniang Kabataan Official and my studies of statistics near the Cebu Port Authority has deeply grounded my work so that they meet the **reality of archipelagic life**.
 
-Outside work, I've founded [PinasR](https://pinasr.r-universe.dev/packages), a centralized repository for R packages made by Filipinos. You may find my core spatial tools at [CRAN](https://r-project.org).
+Outside work, I've founded [PinasR](https://pinasr.r-universe.dev/packages), a centralized repository for R packages made by Filipinos to champion reproducible science in the Philippines. You may find my core spatial tools at [CRAN](https://r-pkg.org/maint/ninotalingting77@gmail.com).
