@@ -32,12 +32,12 @@ strong, b {
 }
 
 /* ==========================================================================
-   2. EXPANDED SIDEBAR NAVIGATION (Hugo Personal Web Clone)
+   2. EXPANDED SIDEBAR NAVIGATION (Hugo Personal Web Clone Overrides)
    ========================================================================== */
 
 /* --- DESKTOP VIEW (Screens 992px and wider) --- */
 @media (min-width: 992px) {
-  /* Set full-bleed background photo panel */
+  /* Forces Quarto's absolute layout wrappers to remain visible on normal pages */
   #quarto-sidebar,
   .sidebar,
   .sidebar-navigation,
@@ -46,6 +46,9 @@ strong, b {
   #quarto-sidebar-sidebar-panel,
   #quarto-sidebar-sidebar nav,
   .sidebar-nav {
+    display: flex !important; /* Forces layout visibility regardless of Quarto flags */
+    visibility: visible !important;
+    opacity: 1 !important;
     width: 340px !important;
     min-height: 100vh !important;
     position: fixed !important;
@@ -55,26 +58,28 @@ strong, b {
     margin: 0 !important;
     padding: 3.5rem 2rem !important;
     
-    /* Applies photo background and tint overlay across all layers */
+    /* Map Photo background generation settings */
     background-image: linear-gradient(rgba(11, 29, 40, 0.65), rgba(11, 29, 40, 0.65)), 
-                      url('images/sidebar-bg.png') !important;
+                      url('images/sidebar-bg.jpg') !important;
     background-size: cover !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
     border-right: 3px solid #1CA3A7 !important;
     z-index: 1000;
-    display: flex !important;
     flex-direction: column !important;
   }
 
-  /* Shifts content canvas outward so it doesn't clip underneath the sidebar */
+  /* Moves text canvas outward so it perfectly lines up right next to the map sidebar */
   #quarto-content,
-  .page-columns {
+  .page-columns,
+  main#quarto-document-content,
+  .quarto-layout-panel {
     margin-left: 340px !important;
-    padding-left: 2rem !important;
+    padding-left: 4rem !important;
+    max-width: 850px !important; /* Keeps right text columns short, tidy and readable */
   }
 
-  /* FORCE TRANSPARENCY RESET: Erases the stubborn gray backgrounds */
+  /* FORCE TRANSPARENCY RESET: Keeps default container gray shapes hidden */
   #quarto-sidebar *,
   #quarto-sidebar-sidebar *,
   .sidebar-navigation *,
@@ -84,7 +89,7 @@ strong, b {
     background-color: transparent !important;
   }
 
-  /* FORCE TEXT LINKS TO BE BOLD STARK WHITE */
+  /* FORCE TEXT LINKS TO REMAIN BOLD WHITE SUBHEADERS */
   #quarto-sidebar .sidebar-item a,
   #quarto-sidebar .sidebar-item span,
   #quarto-sidebar .sidebar-link,
@@ -95,18 +100,16 @@ strong, b {
   #quarto-sidebar-sidebar a,
   #quarto-sidebar-sidebar span,
   .nav-link,
-  .nav-link span,
-  a.nav-link.active,
-  a.nav-link.active span {
+  .nav-link span {
     font-family: 'Playfair Display', serif !important;
-    color: #FFFFFF !important; /* Pure template white */
+    color: #FFFFFF !important; /* Fixed stark template white */
     font-size: 1.4rem !important;
     font-weight: 600 !important;
     text-decoration: none !important;
     display: inline-block !important;
   }
 
-  /* Format individual menu container lists with clean dividers */
+  /* Layout border separation line blocks */
   #quarto-sidebar .sidebar-item,
   #quarto-sidebar li {
     width: 100% !important;
@@ -115,21 +118,18 @@ strong, b {
     border-bottom: 2px dotted rgba(255, 255, 255, 0.3) !important;
   }
 
-  /* Active page states and hover micro-interactions */
+  /* Hover micro-interactions */
   #quarto-sidebar .sidebar-item a:hover,
-  #quarto-sidebar .sidebar-item a:hover span,
   #quarto-sidebar .sidebar-link:hover,
-  #quarto-sidebar .sidebar-link:hover span,
-  #quarto-sidebar .sidebar-link.active,
-  #quarto-sidebar .sidebar-link.active span,
-  .nav-link:hover,
-  .nav-link:hover span {
-    color: #2EC4B6 !important; /* Vibrant signature teal */
+  .nav-link:hover {
+    color: #2EC4B6 !important; /* Active signature teal tint glow */
   }
 
-  /* Clean up: Hide default search blocks completely on desktop */
+  /* Hides any leftover search components or responsive toggle buttons */
   #quarto-sidebar .sidebar-search,
-  .sidebar-item-search {
+  .sidebar-item-search,
+  .sidebar-toggle,
+  .nav-page {
     display: none !important;
   }
 }
@@ -144,8 +144,9 @@ strong, b {
     border-right: none !important;
     border-bottom: 3px solid #1CA3A7 !important;
     padding: 1.5rem !important;
-    background-color: #0B1D28 !important; /* Fallback midnight background */
+    background-color: #0B1D28 !important;
     background-image: none !important;
+    display: block !important;
   }
 
   #quarto-content,
@@ -154,45 +155,12 @@ strong, b {
     padding-left: 0 !important;
   }
 
-  /* Keeps native mobile drawer text visible */
-  .navbar-toggler, 
-  .sidebar-toggle,
-  .sidebar-title {
+  .sidebar-title,
+  .sidebar-title a {
     color: #F7F5F0 !important;
   }
 }
 
-/* --- GLOBAL SIDEBAR OVERLAYS (Safe for both layouts) --- */
-.sidebar-title,
-.sidebar-title a {
-  font-family: 'Playfair Display', serif !important;
-  font-size: 2.2rem !important;
-  font-weight: 700 !important;
-  color: #F7F5F0 !important;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
-}
-
-.sidebar-description {
-  font-family: 'Figtree', sans-serif !important;
-  font-size: 1.1rem !important;
-  color: #F7F5F0 !important;
-  line-height: 1.4 !important;
-  margin-top: 0.5rem !important;
-  margin-bottom: 2rem !important;
-  opacity: 0.90;
-}
-
-#quarto-sidebar .sidebar-tools-main {
-  margin-top: 1.5rem !important;
-  display: flex !important;
-  gap: 16px !important;
-}
-
-#quarto-sidebar .sidebar-tools-main a,
-#quarto-sidebar .sidebar-tools-main i {
-  color: #ffffff !important;
-  font-size: 1.5rem !important;
-}
 
 /* ==========================================================================
    3. INLINE HYPERLINKS & BUTTONS (Aquatic Connections)
