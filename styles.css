@@ -132,17 +132,26 @@ div.sidebar-item-search {
 #quarto-sidebar .sidebar-menu-text,
 #quarto-sidebar-sidebar .nav-link span,
 .sidebar-menu-container .sidebar-menu-text {
-  font-family: 'Playfair Display', serif !important; /* Elegant matching heading font */
-  color: #FFFFFF !important;                        /* Clear stark white color */
-  font-size: 1.4rem !important;                     /* Enriched subheader font size scale */
-  font-weight: 600 !important;                      /* Semi-bold weighting presence */
-  padding: 0.6rem 0 !important;                     /* Breathes extra breathing vertical space */
+  font-family: 'Playfair Display', serif !important; 
+  color: #FFFFFF !important;                        /* Changes dark blue text to pure white */
+  font-size: 1.4rem !important;                     
+  font-weight: 600 !important;                      
+  padding: 0.6rem 0 !important;                     
   text-decoration: none !important;
-  border-bottom: 2px dotted rgba(255, 255, 255, 0.3) !important; /* White dotted layout divider line */
-  width: 100%;                                      /* Lets underline span full width */
-  display: inline-block;
+  border-bottom: 2px dotted rgba(255, 255, 255, 0.3) !important; 
+  width: 100% !important;                           /* Spans across full width of the sidebar */
+  display: inline-block !important;
   transition: all 0.2s ease-in-out;
 }
+
+/* Hover effect */
+#quarto-sidebar .sidebar-menu-container .nav-link:hover span,
+#quarto-sidebar .sidebar-menu-container .nav-link:hover {
+  color: #2EC4B6 !important;                        /* Glows to teal on hover */
+  border-bottom-color: #2EC4B6 !important;          
+  padding-left: 6px !important;                     
+}
+
 
 /* Active Nav Link Glow Actions */
 #quarto-sidebar .sidebar-menu-container .nav-link:hover span,
