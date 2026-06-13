@@ -26,11 +26,11 @@ website:
     # 2. Replicates the clean horizontal grid of icons right below your links
     tools:
       - icon: github
-        href: https://github.com
+        href: https://github.com/njtalingting
       - icon: linkedin
-        href: https://linkedin.com
+        href: https://linkedin.com/njtalingting
       - icon: envelope
-        href: mailto:your-email@address.com
+        href: mailto:ninotalingting77@gmail.com
 
   page-footer:
     left: "© 2026 NJ Talingting"
