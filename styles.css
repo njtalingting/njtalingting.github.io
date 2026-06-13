@@ -34,49 +34,72 @@ strong, b {
 }
 
 /* ==========================================================================
-   2. NAVIGATION HEADER (Deep Sea Marine Transition)
+   2. EXPANDED SIDEBAR NAVIGATION (Full Screen Edge Anchor Layout)
    ========================================================================== */
-.navbar {
-  background-color: #0B1D28 !important; /* Deep Midnight Ocean Blue */
-  border-bottom: 3px solid #1CA3A7 !important; /* Deep Bioluminescent Coral Teal */
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+/* Master layout adjustments for wider left alignment */
+@media (min-width: 992px) {
+  #quarto-sidebar {
+    width: 340px !important;              /* Custom expanded sidebar width structural canvas */
+    min-height: 100vh !important;         /* Forces absolute viewport length coverage */
+    position: fixed !important;           /* Sticky pinning mechanism keeps layout locked */
+    top: 0 !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    margin: 0 !important;
+    padding: 2.5rem 1.5rem !important;
+    background-color: #0B1D28 !important; /* Matches your original Deep Midnight Ocean Blue theme */
+    border-right: 3px solid #1CA3A7 !important; /* Vibrant Bioluminescent Coral Teal boundary */
+    overflow-y: auto;
+    z-index: 1000;
+  }
+
+  /* Moves main content grid container frame outward to fit sidebar size nicely */
+  #quarto-content,
+  .page-columns {
+    margin-left: 340px !important;        /* Synchronized structural gap margin setting */
+    padding-left: 2rem !important;
+  }
 }
 
-.navbar-brand .navbar-title {
-  display: none !important;
-}
-
-.nav-link {
+/* Sidebar Title and Interactive Anchor Hyperlinks Layout */
+#quarto-sidebar .sidebar-title,
+#quarto-sidebar .sidebar-menu-text,
+#quarto-sidebar .nav-link,
+#quarto-sidebar a {
   font-family: 'Figtree', sans-serif !important;
-  color: #F7F5F0 !important;            /* Sea-spray white */
+  color: #F7F5F0 !important;            /* Sea-spray white legibility layer */
   font-weight: 500;
   letter-spacing: 0.5px;
+  text-decoration: none !important;
   transition: opacity 0.2s ease, color 0.2s ease;
 }
 
-.nav-link:hover {
-  color: #2EC4B6 !important;            /* Illuminates to active Reef Cyan on hover */
+#quarto-sidebar .nav-link:hover,
+#quarto-sidebar a:hover {
+  color: #2EC4B6 !important;            /* Illuminates to active Reef Cyan on selection hover */
   opacity: 1;
 }
 
+/* Fixes default spacing overrides left over by navbar architecture models */
 .quarto-search-toggle .bi-search,
 .quarto-color-scheme-toggle .bi {
   color: #F7F5F0 !important;
 }
 
-.dropdown-menu {
-  background-color: #0B1D28 !important;
-  border: 1px solid #1CA3A7 !important;
-}
-
-.dropdown-item {
-  color: #F7F5F0 !important;
-}
-
-.dropdown-item:hover {
-  background-color: #1CA3A7 !important;
-  color: #0B1D28 !important;
+/* Mobile Responsiveness View Scaling Safeguard Fallbacks */
+@media (max-width: 991.98px) {
+  #quarto-sidebar {
+    width: 100% !important;
+    min-height: auto !important;
+    position: relative !important;
+    border-right: none !important;
+    border-bottom: 3px solid #1CA3A7 !important;
+  }
+  #quarto-content,
+  .page-columns {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
 }
 
 /* ==========================================================================
@@ -208,14 +231,14 @@ img[src*="profile"]:hover,
   display: inline-block;
 }
 
-.software-links {
+.software-grid-links {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-top: 0.75rem;
 }
 
-.software-links .software-btn {
+.software-grid-links .software-btn {
   margin: 0 !important;
 }
 
