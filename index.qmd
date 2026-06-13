@@ -1,6 +1,23 @@
 ---
-title: ""
-page-layout: article
+title: "NJ Talingting"
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/njtalingting
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/njtalingting
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/my-orcid?orcid=0009-0003-7245-874X
+    - icon: box-seam
+      text: R-Universe
+      href: https://njtalingting.r-universe.dev
+    - icon: envelope
+      text: Contact
+      href: "mailto:ninotalingting77@gmail.com"
 ---
 
 # Hi, my name is NJ Talingting.
