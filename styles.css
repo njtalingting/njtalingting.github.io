@@ -34,56 +34,81 @@ strong, b {
 }
 
 /* ==========================================================================
-   2. EXPANDED SIDEBAR NAVIGATION (Full Screen Edge Anchor Layout)
+   2. EXPANDED SIDEBAR NAVIGATION (Full-Bleed Image Background Profile)
    ========================================================================== */
-/* Master layout adjustments for wider left alignment */
 @media (min-width: 992px) {
   #quarto-sidebar {
-    width: 340px !important;              /* Custom expanded sidebar width structural canvas */
-    min-height: 100vh !important;         /* Forces absolute viewport length coverage */
-    position: fixed !important;           /* Sticky pinning mechanism keeps layout locked */
+    width: 340px !important;
+    min-height: 100vh !important;
+    position: fixed !important;
     top: 0 !important;
     left: 0 !important;
     bottom: 0 !important;
     margin: 0 !important;
-    padding: 2.5rem 1.5rem !important;
-    background-color: #0B1D28 !important; /* Matches your original Deep Midnight Ocean Blue theme */
-    border-right: 3px solid #1CA3A7 !important; /* Vibrant Bioluminescent Coral Teal boundary */
+    padding: 3.5rem 2rem !important;
+    
+    /* Full-bleed background image with dark overlay filter tint */
+    background-image: linear-gradient(rgba(11, 29, 40, 0.65), rgba(11, 29, 40, 0.65)), url('images/sidebar-bg.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    
+    border-right: 3px solid #1CA3A7 !important;
     overflow-y: auto;
     z-index: 1000;
+    display: flex;
+    flex-direction: column;
   }
 
-  /* Moves main content grid container frame outward to fit sidebar size nicely */
   #quarto-content,
   .page-columns {
-    margin-left: 340px !important;        /* Synchronized structural gap margin setting */
+    margin-left: 340px !important;
     padding-left: 2rem !important;
   }
 }
 
-/* Sidebar Title and Interactive Anchor Hyperlinks Layout */
+/* Sidebar Branding, Header Title, and Tagline Subtitles */
 #quarto-sidebar .sidebar-title,
-#quarto-sidebar .sidebar-menu-text,
-#quarto-sidebar .nav-link,
-#quarto-sidebar a {
-  font-family: 'Figtree', sans-serif !important;
-  color: #F7F5F0 !important;            /* Sea-spray white legibility layer */
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  text-decoration: none !important;
-  transition: opacity 0.2s ease, color 0.2s ease;
-}
-
-#quarto-sidebar .nav-link:hover,
-#quarto-sidebar a:hover {
-  color: #2EC4B6 !important;            /* Illuminates to active Reef Cyan on selection hover */
-  opacity: 1;
-}
-
-/* Fixes default spacing overrides left over by navbar architecture models */
-.quarto-search-toggle .bi-search,
-.quarto-color-scheme-toggle .bi {
+#quarto-sidebar .sidebar-title a {
+  font-family: 'Playfair Display', serif !important; /* Elegant matching serif header */
+  font-size: 2rem !important;
+  font-weight: 700 !important;
   color: #F7F5F0 !important;
+  letter-spacing: 0.5px !important;
+  margin-bottom: 0.5rem !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Styles your description/tagline text beneath the title */
+#quarto-sidebar .sidebar-description, 
+#quarto-sidebar p {
+  font-family: 'Figtree', sans-serif !important;
+  font-size: 1.1rem !important;
+  color: #F7F5F0 !important;
+  line-height: 1.4 !important;
+  margin-bottom: 2rem !important;
+  opacity: 0.95;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+/* Sidebar Menu Navigation Link List */
+#quarto-sidebar .sidebar-menu-text,
+#quarto-sidebar .nav-link {
+  font-family: 'Figtree', sans-serif !important;
+  color: #F7F5F0 !important;
+  font-size: 1.05rem !important;
+  font-weight: 500;
+  padding: 0.4rem 0 !important;
+  text-decoration: none !important;
+  border-bottom: 1px dotted rgba(247, 245, 240, 0.4); /* Dashed underline decoration */
+  width: fit-content;
+  transition: all 0.2s ease;
+}
+
+#quarto-sidebar .nav-link:hover {
+  color: #2EC4B6 !important;
+  border-bottom-color: #2EC4B6;
+  padding-left: 4px !important; /* Subtle slide interaction effect */
 }
 
 /* Mobile Responsiveness View Scaling Safeguard Fallbacks */
@@ -94,6 +119,7 @@ strong, b {
     position: relative !important;
     border-right: none !important;
     border-bottom: 3px solid #1CA3A7 !important;
+    padding: 2rem 1.5rem !important;
   }
   #quarto-content,
   .page-columns {
