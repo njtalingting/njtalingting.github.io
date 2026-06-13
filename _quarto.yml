@@ -5,14 +5,14 @@ project:
 
 website:
   title: "NJ Talingting"
-  description: "Connecting fragmented geographies."
   favicon: images/logo.svg
   
-  # 1. Replaced navbar with sidebar configuration
   sidebar:
     style: "docked"
-    background: "#1a1a1a"       # Gives you the dark sidebar style from the image
-    logo: images/logo.svg
+    # 1. Custom layout template inserting your tagline right under your title
+    header: |
+      <div class="sidebar-description">Connecting fragmented geographies.</div>
+    
     contents:
       - href: index.qmd
         text: Home
@@ -23,6 +23,15 @@ website:
       - href: resources.qmd
         text: Resources
 
+    # 2. Replicates the clean horizontal grid of icons right below your links
+    tools:
+      - icon: github
+        href: https://github.com
+      - icon: linkedin
+        href: https://linkedin.com
+      - icon: envelope
+        href: mailto:your-email@address.com
+
   page-footer:
     left: "© 2026 NJ Talingting"
 
@@ -30,8 +39,8 @@ format:
   html:
     theme: 
       - cosmo
-      - light                   # Keeps the main body area light colored
+      - light                   
     css: styles.css
-    theme-toggle: true           # Activates the sun/moon button safely
+    theme-toggle: true           
     toc: true
     include-in-header: schema.html
