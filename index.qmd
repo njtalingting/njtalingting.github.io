@@ -1,6 +1,6 @@
 ---
 title: ""
-sidebar: true
+page-layout: article
 ---
 
 # Hi, my name is NJ Talingting.
